@@ -1,1 +1,44 @@
 /* css styles */
+
+/* Custom Sponsor Button Styling */
+.btn-fancy-sponsor {
+  background-color: #f7a6b7; /* 柔和的粉色背景 */
+  color: white; /* 白色字体 */
+  border: none; /* 无边框 */
+  padding: 15px 30px; /* 更多内边距 */
+  border-radius: 50px; /* 圆角胶囊形状 */
+  font-weight: bold; /* 粗体文字 */
+  font-size: 1.2em; /* 稍微大一点的字体 */
+  letter-spacing: 1px; /* 字母间距 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 柔和的阴影 */
+  transition: all 0.3s ease; /* 悬停动画效果 */
+}
+
+.btn-fancy-sponsor:hover {
+  background-color: #e68e9e; /* 悬停时深一点的颜色 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* 悬停时阴影更明显 */
+  transform: translateY(-2px); /* 悬停时轻微上浮 */
+}
+
+/* 确保图标颜色也一致 */
+.btn-fancy-sponsor .fa-heart {
+  color: white; /* 图标颜色 */
+  margin-right: 10px; /* 图标和文字之间的间距 */
+}
+
+/* 适配深色模式 */
+.dark-mode .btn-fancy-sponsor {
+  background-color: #6a4c93; /* 深色模式下的紫色背景 */
+  color: white;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .btn-fancy-sponsor:hover {
+  background-color: #553a7f; /* 深色模式悬停时深一点的颜色 */
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
+}
+
+.dark-mode .btn-fancy-sponsor .fa-heart {
+  color: white;
+}
+
