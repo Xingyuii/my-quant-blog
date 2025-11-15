@@ -26,13 +26,18 @@ jobs:
         run: |
           pip install numpy matplotlib
 
-      # --- 这是新的、手动的 Quarto 安装步骤 ---
       - name: Download and Install Quarto CLI
         run: |
           wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.554/quarto-1.4.554-linux-amd64.deb
           sudo dpkg -i quarto-1.4.554-linux-amd64.deb
 
-      # --- 这是新的、手动的发布步骤 ---
+      # --- 新增步骤：设置 Git 作者信息 ---
+      - name: Set Git Config
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+      # --- 新增步骤结束 ---
+
       - name: Render and Publish Website
         run: |
           quarto publish gh-pages
