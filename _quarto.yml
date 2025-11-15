@@ -6,6 +6,7 @@ website:
   site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
   title: "my-quant-blog"
   navbar:
+    logo: "pandaa.jpg"
     right:
       - about.qmd
       - icon: github
