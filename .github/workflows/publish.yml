@@ -2,24 +2,22 @@ on:
   push:
     branches: main
 
-name: Publish Quarto Website
+name: Publish Quarto Website (Manual Install)
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    concurrency: # <--- 新增部分
+    concurrency:
       group: "gh-pages"
       cancel-in-progress: true
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-cli-action@v2
-
-      - name: Set up Python
+      - name: Set up Python 3.12
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -28,9 +26,15 @@ jobs:
         run: |
           pip install numpy matplotlib
 
+      # --- 这是新的、手动的 Quarto 安装步骤 ---
+      - name: Download and Install Quarto CLI
+        run: |
+          wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.4.554/quarto-1.4.554-linux-amd64.deb
+          sudo dpkg -i quarto-1.4.554-linux-amd64.deb
+
+      # --- 这是新的、手动的发布步骤 ---
       - name: Render and Publish Website
-        uses: quarto-dev/quarto-cli-action@v2
-        with:
-          command: publish gh-pages
+        run: |
+          quarto publish gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
