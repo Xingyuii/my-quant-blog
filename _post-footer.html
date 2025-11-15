@@ -1,0 +1,80 @@
+<hr>
+
+<div style="padding: 20px 0; text-align: center;">
+  
+  <button type="button" class="btn btn-lg btn-fancy-sponsor" data-bs-toggle="modal" data-bs-target="#donationModal" markdown="1">
+    <i class="fa-solid fa-heart fa-lg"></i> 支持作者 (Sponsor)
+  </button>
+  
+  <div class="modal fade" id="donationModal" tabindex="-1" aria-labelledby="donationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        
+        <div class="modal-header">
+          <h5 class="modal-title" id="donationModalLabel">感谢您的支持！(Thank you!)</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-body">
+          
+          <ul class="nav nav-tabs" id="paymentTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="wechat-tab" data-bs-toggle="tab" data-bs-target="#wechat-pane" type="button" role="tab" aria-controls="wechat-pane" aria-selected="true">微信 (WeChat)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="alipay-tab" data-bs-toggle="tab" data-bs-target="#alipay-pane" type="button" role="tab" aria-controls="alipay-pane" aria-selected="false">支付宝 (Alipay)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="fps-tab" data-bs-toggle="tab" data-bs-target="#fps-pane" type="button" role="tab" aria-controls="fps-pane" aria-selected="false">转数快 (FPS)</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="paypal-tab" data-bs-toggle="tab" data-bs-target="#paypal-pane" type="button" role="tab" aria-controls="paypal-pane" aria-selected="false">PayPal</button>
+            </li>
+          </ul>
+          
+          <div class="tab-content" id="paymentTabsContent" style="padding-top: 20px; text-align: center;">
+            
+            <div class="tab-pane fade show active" id="wechat-pane" role="tabpanel" aria-labelledby="wechat-tab">
+              <p>请使用微信扫描二维码 (Scan with WeChat)</p>
+              <img src="/images/wechat-qr.JPG" alt="WeChat QR Code" style="width: 250px; height: auto;">
+            </div>
+            
+            <div class="tab-pane fade" id="alipay-pane" role="tabpanel" aria-labelledby="alipay-tab">
+              <p>请使用支付宝扫描二维码 (Scan with Alipay)</p>
+              <img src="/images/alipay-qr.JPG" alt="Alipay QR Code" style="width: 250px; height: auto;">
+            </div>
+            
+            <div class="tab-pane fade" id="fps-pane" role="tabpanel" aria-labelledby="fps-tab">
+              <p>请使用银行 App 扫描“转数快”二维码 (Scan FPS QR with your Banking App)</p>
+              <img src="/images/fps-qr.JPG" alt="FPS QR Code" style="width: 250px; height: auto;">
+            </div>
+            
+            <div class="tab-pane fade" id="paypal-pane" role="tabpanel" aria-labelledby="paypal-tab">
+              <p>请使用 PayPal 扫描二维码 (Scan with PayPal)</p>
+              <img src="/images/paypal-qr.JPG" alt="PayPal QR Code" style="width: 250px; height: auto;">
+              
+              <hr style="margin-top: 20px; margin-bottom: 20px;">
+              
+              <p>或点击下方链接 (Or click the link below)：</p>
+              <a href="https://paypal.me/sarah1i" class="btn btn-info" target="_blank" rel="noopener noreferrer" 
+                 data-bs-toggle="tooltip" data-bs-placement="top" title="点击跳转 (Click to proceed)">
+                PayPal.me/sarah1i
+              </a>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="font-size: 0.9em; color: #888; text-align: center;">
+  <p>感谢您的阅读！欢迎在下方留言。</p>
+</div>
+
+<script>
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+</script>

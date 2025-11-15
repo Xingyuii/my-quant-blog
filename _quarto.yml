@@ -4,21 +4,45 @@ project:
 website:
   description: "A blog built with Quarto"
   site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "my-quant-blog"
+  title: "Sarah's Blog"
+  favicon: "pandaa.jpg"
   navbar:
     logo: "pandaa.jpg"
     right:
-      - about.qmd
+      - href: about.qmd
+        text: "About Me"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/xingyulee/
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/Xingyuii/
+      - icon: instagram
+        href: https://instagram.com/sarah.l133
+      - icon: wechat
+      - icon: envelope
+        href: "mailto:xingyu.sarah@gmail.com"
+      - icon: wechat
+        href: "wechat.JPG"
+        target: "_blank"
+  comments:
+      giscus:
+        repo: "Xingyuii/my-quant-blog"
+        repo-id: "R_kgDOQWHABw"
+        category: "Announcements"
+        category-id: "DIC_kwDOQWHAB84Cx0aS"
+        mapping: "pathname"
+        reactions-enabled: true
+        input-position: "bottom"
+        theme:
+          light: "light"  
+          dark: "dark"   
+
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: [cosmo, brand]
+      dark: [cyborg, brand]
     css: styles.css
+    include-after-body: _post-footer.html
 
 
 
