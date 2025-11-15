@@ -1,0 +1,9 @@
+---
+title: "Trading Logs [1]"
+author: "Sarah LI"
+date: "2025-11-15"
+categories: [trading,news]
+image: "image.jpg"
+---
+
+This is the 1<sup>st</sup> post to record my trading logs.
