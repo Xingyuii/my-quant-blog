@@ -9,8 +9,8 @@
 <link>https://your-website-url.example.com/</link>
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
-<generator>quarto-1.8.26</generator>
-<lastBuildDate>Fri, 14 Nov 2025 16:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Sat, 15 Nov 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Post With Code</title>
   <dc:creator>Harlow Malloc</dc:creator>
@@ -30,7 +30,7 @@
   <category>code</category>
   <category>analysis</category>
   <guid>https://your-website-url.example.com/posts/post-with-code/</guid>
-  <pubDate>Fri, 14 Nov 2025 16:00:00 GMT</pubDate>
+  <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
   <media:content url="https://your-website-url.example.com/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
@@ -52,7 +52,7 @@
  ]]></description>
   <category>news</category>
   <guid>https://your-website-url.example.com/posts/welcome/</guid>
-  <pubDate>Tue, 11 Nov 2025 16:00:00 GMT</pubDate>
+  <pubDate>Wed, 12 Nov 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
 </rss>
