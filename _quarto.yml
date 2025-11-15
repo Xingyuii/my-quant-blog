@@ -18,11 +18,19 @@ website:
       - icon: instagram
         href: https://instagram.com/sarah.l133
       - icon: wechat
-      - icon: envelope
-        href: "mailto:xingyu.sarah@gmail.com"
-      - icon: wechat
         href: "wechat.JPG"
         target: "_blank"
+      - icon: youtube
+        href: https://www.youtube.com/@XingyuSarah
+      - icon: envelope
+        href: "mailto:xingyu.sarah@gmail.com"
+      - text: "![](/icons/bilibili.svg){height=18px}"
+        href: "https://b23.tv/7RiB25o"
+      - text: "![](/icons/xiaohongshu.svg){height=20px}"
+        href: "https://xhslink.com/m/41beRsIE9P9"
+
+
+
   comments:
       giscus:
         repo: "Xingyuii/my-quant-blog"

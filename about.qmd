@@ -13,16 +13,26 @@ about:
     - icon: github
       text: Github
       href: https://github.com/Xingyuii/
-    - icon: instagram
-      text: Instagram
-      href: https://instagram.com/sarah.l133
+
     - icon: envelope
       text: Email
       href: "mailto:xingyu.sarah@gmail.com"
+
     - icon: wechat
-      text: "SarahHK_lol"
       href: "wechat.JPG"
       target: "_blank"
+      text: "WeChat"
+
+    - icon: youtube
+      text: YouTube
+      href: www.youtube.com/@XingyuSarah
+    - icon: instagram
+      text: Instagram
+      href: https://instagram.com/sarah.l133
+    - text: "![](/icons/bilibili.svg){height=20px}"
+      href: "https://b23.tv/7RiB25o"
+    - text: "![](/icons/xiaohongshu.svg){height=20px}"
+      href: "https://xhslink.com/m/41beRsIE9P9"
 
 
 ---

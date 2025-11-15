@@ -42,3 +42,58 @@
   color: white;
 }
 
+/* Custom Ko-fi/Visa Button Styling (Tech/Premium Look) */
+.btn-kofi-brand {
+  background-color: #5865F2; /* Modern Tech Blue/Purple */
+  color: white; /* 确保字体为白色 */
+  border: none;
+  border-radius: 8px; /* 稍微圆润的矩形 */
+  font-weight: 600;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15); /* 柔和的阴影 */
+}
+
+.btn-kofi-brand:hover {
+  background-color: #4752C4; /* 悬停时深一点的颜色 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  transform: translateY(-1px); /* 轻微上浮动画 */
+}
+
+/* 适配深色模式 */
+.dark-mode .btn-kofi-brand {
+  background-color: #7289DA; /* 深色模式下使用略亮的蓝色 */
+  color: #2C2F33 !important; /* 确保文本颜色清晰 */
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+}
+
+/* 更具体的图标样式 */
+.social-links .icon-bilibili::before,
+.social-icons .icon-bilibili::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('/icons/bilibili.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.social-links .icon-xiaohongshu::before,
+.social-icons .icon-xiaohongshu::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('/icons/xiaohongshu.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+/* 强制显示 */
+[class*="bilibili"] {
+  background-image: url('/icons/bilibili.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}

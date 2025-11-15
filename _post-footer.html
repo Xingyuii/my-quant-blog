@@ -30,6 +30,9 @@
             <li class="nav-item" role="presentation">
               <button class="nav-link" id="paypal-tab" data-bs-toggle="tab" data-bs-target="#paypal-pane" type="button" role="tab" aria-controls="paypal-pane" aria-selected="false">PayPal</button>
             </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="visa-tab" data-bs-toggle="tab" data-bs-target="#visa-pane" type="button" role="tab" aria-controls="visa-pane" aria-selected="false">信用卡 (Visa)</button>
+            </li>
           </ul>
           
           <div class="tab-content" id="paymentTabsContent" style="padding-top: 20px; text-align: center;">
@@ -51,7 +54,7 @@
             
             <div class="tab-pane fade" id="paypal-pane" role="tabpanel" aria-labelledby="paypal-tab">
               <p>请使用 PayPal 扫描二维码 (Scan with PayPal)</p>
-              <img src="/images/paypal-qr.jpg" alt="PayPal QR Code" style="width: 250px; height: auto;">
+              <img src="/images/paypal-qr.JPG" alt="PayPal QR Code" style="width: 250px; height: auto;">
               
               <hr style="margin-top: 20px; margin-bottom: 20px;">
               
@@ -60,6 +63,19 @@
                  data-bs-toggle="tooltip" data-bs-placement="top" title="点击跳转 (Click to proceed)">
                 PayPal.me/sarah1i
               </a>
+            </div>
+
+            <div class="tab-pane fade" id="visa-pane" role="tabpanel" aria-labelledby="visa-tab">
+              <p class="mb-3">请通过 Ko-fi 平台支持 (please support via Ko-fi):</p>
+              
+              <a href="https://ko-fi.com/sarahlii" class="btn btn-lg btn-kofi-brand" target="_blank" rel="noopener noreferrer" style="margin-top: 10px;">
+                <i class="fa-solid fa-mug-hot"></i> Go to Ko-fi
+              </a>
+              
+              <p class="mt-3 text-muted" style="font-size: 0.8em; margin-top: 15px;">
+                Ko-fi 会处理 Visa / Mastercard 信用卡支付。<br>
+                (Ko-fu will handle Visa / Mastercard credit card payments.)
+              </p>
             </div>
           </div>
           
