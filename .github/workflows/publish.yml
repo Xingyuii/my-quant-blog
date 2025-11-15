@@ -9,6 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    concurrency: # <--- 新增部分
+      group: "gh-pages"
+      cancel-in-progress: true
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
