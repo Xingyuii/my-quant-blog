@@ -29,8 +29,6 @@ website:
       - text: "![](/icons/xiaohongshu.svg){height=20px}"
         href: "https://xhslink.com/m/41beRsIE9P9"
 
-
-
   comments:
       giscus:
         repo: "Xingyuii/my-quant-blog"
