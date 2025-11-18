@@ -65,35 +65,3 @@
   color: #2C2F33 !important; /* 确保文本颜色清晰 */
   box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
-
-/* 更具体的图标样式 */
-.social-links .icon-bilibili::before,
-.social-icons .icon-bilibili::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url('icons/bilibili.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-.social-links .icon-xiaohongshu::before,
-.social-icons .icon-xiaohongshu::before {
-  content: "";
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  background-image: url('icons/xiaohongshu.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
-/* 强制显示 */
-[class*="bilibili"] {
-  background-image: url('icons/bilibili.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-}
