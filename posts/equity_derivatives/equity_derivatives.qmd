@@ -1,11 +1,11 @@
 ---
-title: "Beyond Vanilla: A Guide to Exotic Equity Derivatives"
-subtitle: "超越香草期权：股票奇异衍生品实战指南"
-author: "Sarah"
+title: "Beyond Vanilla: Fun & Popular Exotic Equity Derivatives"
+subtitle: "不止香草期权：有趣流行的股票奇异衍生品"
+author: "Sarah LI"
 date: "2025-12-02"
 categories: [Structuring, Derivatives, Exotics, Market Insights]
-image: "ExoticDerivatives.png"
-description: "A structured breakdown of popular equity derivatives from basic swaps to complex autocallables, explaining their mechanics, market views, and pricing drivers."
+image: "autocall.png"
+description: "An introduction to several popular equity derivatives, from basic swaps to complex autocallables, explaining their mechanics, market views, and pricing drivers."
 format:
   html:
     code-fold: true
@@ -14,11 +14,11 @@ format:
     toc-depth: 3
     toc-title: "目录"
     fig-cap-location: bottom
-    number-sections: true
+    number-sections: false
     theme: cosmo
 jupyter: python3
 ---
-![](autocall.png)
+
 ```{python}
 #| include: false
 # 全局初始化代码（不显示在文章中）
@@ -59,6 +59,8 @@ def add_shaded_zone(ax, x_range, color, alpha=0.15, label=None):
 ```
 
 ## Executive Summary / 核心摘要
+
+
 
 This guide deconstructs the key equity derivatives found in the Asian and global markets, ordered from foundational building blocks to complex structured products.
 
@@ -390,7 +392,10 @@ ax.fill_between(s[s < K_down], 0, twin_win[s < K_down], color=C_BARRIER, alpha=0
 ax.set_title('5. Twin-Wins Structure (Long Strangle)', fontsize=14, fontweight='bold')
 ax.set_xlabel('Stock Price at Maturity', fontsize=12)
 ax.set_ylabel('Payoff', fontsize=12)
-ax.legend(loc='upper left', fontsize=9, ncol=3, bbox_to_anchor=(0.5, 1.15))
+ax.legend(loc='upper center', fontsize=10, framealpha=0.9,
+                   bbox_to_anchor=(0.5, -0.15),  # 放在图表下方
+                   ncol=3,  # 水平排列为3列
+                   fancybox=True, shadow=True)
 ax.grid(True, alpha=0.3)
 ax.set_xlim(60, 140)
 ax.set_ylim(0, 35)
