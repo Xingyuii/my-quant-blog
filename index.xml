@@ -12,154 +12,8 @@
 <generator>quarto-1.4.554</generator>
 <lastBuildDate>Tue, 02 Dec 2025 00:00:00 GMT</lastBuildDate>
 <item>
-  <title>Deep Dive: Equities Prime Brokerage Business Model</title>
-  <dc:creator>Sarah </dc:creator>
-  <link>https://your-website-url.example.com/posts/equity_business/prime_brokerage.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="introduction-简介" class="level2">
-<h2 class="anchored" data-anchor-id="introduction-简介">Introduction / 简介</h2>
-<p><strong>Equities Prime Brokerage (PB)</strong> acts as a one-stop “super butler” and “arsenal” for hedge funds and large institutional investors. While the fund’s core competency is its <strong>trading strategy</strong>, the PB’s core competency is solving all <strong>logistical</strong> and <strong>funding</strong> problems outside of that strategy.</p>
-<p><strong>股票主经纪商业务 (Prime Brokerage)</strong> 是为对冲基金和大型机构投资者提供的一站式“超级管家”和“军火库”。如果说基金的核心能力是<strong>交易策略</strong>，那么 PB 的核心能力就是解决除策略以外的所有<strong>后勤</strong>和<strong>资金</strong>问题。</p>
-</section>
-<section id="core-business-model-summary-核心业务模式汇总" class="level2">
-<h2 class="anchored" data-anchor-id="core-business-model-summary-核心业务模式汇总">Core Business Model Summary / 核心业务模式汇总</h2>
-<p><img src="https://your-website-url.example.com/posts/equity_business/PrimeBrokerage.png" class="img-fluid"></p>
-<p>The following table breaks down the Prime Brokerage business by its operational pillars, core products, the specific problems they solve for clients, and their key advantages.</p>
-<p>下表按业务支柱、核心产品、解决的具体痛点以及主要优势，对主经纪商业务进行了详细拆解。</p>
-<table class="table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Business Area <br> 业务领域</th>
-<th style="text-align: left;">Core Product &amp; Key Mechanics <br> 核心产品与核心机制</th>
-<th style="text-align: left;">Problem Solved <br> 解决的痛点</th>
-<th style="text-align: left;">Advantages <br> 优势</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Physical Prime (Financing)</strong> <br> 实物主经纪商 (融资)</td>
-<td style="text-align: left;"><strong>Cash Margin Financing</strong> <br> 现金保证金融资 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> Clients pay <strong>Margin Interest</strong> (e.g., SOFR + Spread). The bank manages risk by setting <strong>Margin Requirements</strong>. <br> 客户支付<strong>融资利息</strong>（如 SOFR + 利差）。银行通过设定<strong>维持保证金</strong>比例来管理风险。</td>
-<td style="text-align: left;"><strong>Capital Constraint:</strong> <br> Clients want to amplify returns (leverage) but are limited by their own capital base. <br><br> <strong>资金痛点：</strong> <br> 客户希望放大收益（上杠杆），但受限于自有资金规模。</td>
-<td style="text-align: left;">• <strong>Maximize Efficiency:</strong> Maximizes capital efficiency via leverage. <br> • <strong>Larger Exposure:</strong> Allows clients to hold larger long positions than cash would permit. <br><br> • <strong>效率最大化：</strong> 通过杠杆最大化资金使用效率。<br> • <strong>扩大敞口：</strong> 允许客户持有比现金所能支持的更大的头寸。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Physical Prime (Securities Lending)</strong> <br> 实物主经纪商 (证券借贷)</td>
-<td style="text-align: left;"><strong>SBL &amp; Repo</strong> <br> (Securities Borrowing &amp; Lending) <br> 证券借贷与回购协议 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> Clients pay a <strong>Borrow Fee</strong>. For “Hard-to-Borrow” stocks, this fee can be very high. Often structured as a <strong>Reverse Repo</strong>. <br> 客户支付<strong>借券费</strong>。对于“难借”的股票，费用极高。通常通过<strong>逆回购 (Reverse Repo)</strong> 的形式构建。</td>
-<td style="text-align: left;"><strong>Short Selling Restriction:</strong> <br> Clients want to short a stock (bet on price drop) but cannot sell what they do not own. <br><br> <strong>做空痛点：</strong> <br> 客户看跌某股票想做空，但不能卖出自己手里没有的东西。</td>
-<td style="text-align: left;">• <strong>Enable Shorting:</strong> Enables Long/Short strategies. <br> • <strong>Liquidity:</strong> Provides liquidity for “hard-to-borrow” assets. <br> • <strong>Yield:</strong> Generates extra yield for asset lenders. <br><br> • <strong>实现做空：</strong> 支持多空策略的执行。<br> • <strong>提供流动性：</strong> 为“难借”资产提供流动性。<br> • <strong>产生收益：</strong> 为借出资产的一方创造额外收益。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Physical Prime (Operations)</strong> <br> 实物主经纪商 (运营)</td>
-<td style="text-align: left;"><strong>Clearing, Settlement &amp; Custody</strong> <br> 清算、结算与托管 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> <strong>Centralized Clearing.</strong> The PB consolidates trades from various executing brokers into one account. <br> <strong>集中清算。</strong> 主经纪商将来自不同执行券商的所有交易汇总到一个账户中。</td>
-<td style="text-align: left;"><strong>Operational Complexity:</strong> <br> Managing thousands of trades across multiple exchanges is costly and prone to settlement errors. <br><br> <strong>运营痛点：</strong> <br> 管理跨多个交易所的数千笔交易成本极高，且容易出现结算错误。</td>
-<td style="text-align: left;">• <strong>Centralization:</strong> Centralizes asset safekeeping. <br> • <strong>Efficiency:</strong> Reduces back-office administrative burden. <br> • <strong>Risk Mitigation:</strong> Mitigates counterparty and settlement risks. <br><br> • <strong>集中管理：</strong> 集中保管资产，确保安全。<br> • <strong>提升效率：</strong> 减轻后台行政负担。<br> • <strong>降低风险：</strong> 缓解对手方风险和结算风险。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Synthetic Prime (Delta One)</strong> <br> 合成主经纪商 (Delta One)</td>
-<td style="text-align: left;"><strong>Equity Swaps / Total Return Swaps (TRS)</strong> <br> 股票互换 / 总回报互换 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> The client receives the <strong>“Total Return”</strong> (Capital Gains + Dividends) and pays a <strong>“Financing Rate”</strong> to the bank. <br> 客户收取<strong>“总回报”</strong>（资本增值+股息），并向银行支付<strong>“融资利率”</strong>。</td>
-<td style="text-align: left;"><strong>Market Access &amp; Efficiency:</strong> <br> Direct ownership is difficult (e.g., restricted markets), tax-inefficient, or capital-intensive. <br><br> <strong>准入与效率痛点：</strong> <br> 直接持有实物股票可能面临市场准入限制、税务低效或资金占用过高的问题。</td>
-<td style="text-align: left;">• <strong>Market Access:</strong> Access restricted markets (e.g., China A-shares, emerging markets). <br> • <strong>High Leverage:</strong> Often requires lower margin than physical financing. <br> • <strong>Operational Ease:</strong> Avoids stamp duties and custody complexities. <br><br> • <strong>市场准入：</strong> 轻松进入受限市场（如中国A股、新兴市场）。<br> • <strong>高杠杆：</strong> 通常比实物融资这就需要更低的保证金。<br> • <strong>运营便捷：</strong> 规避印花税和复杂的托管流程。</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="key-roles-skills-in-prime-brokerage-核心岗位与技能" class="level2">
-<h2 class="anchored" data-anchor-id="key-roles-skills-in-prime-brokerage-核心岗位与技能">Key Roles &amp; Skills in Prime Brokerage / 核心岗位与技能</h2>
-<p>The Prime Brokerage ecosystem relies on a diverse set of professionals, from client-facing sales to technical builders. Below are the key roles and the critical skills required to succeed in each.</p>
-<p>主经纪商业务生态依赖于多种专业人才的协同工作，从面向客户的销售到技术构建者。以下是核心岗位及其所需的关键技能。</p>
-<section id="front-office-roles-前台岗位" class="level4">
-<h4 class="anchored" data-anchor-id="front-office-roles-前台岗位">1. Front Office Roles (前台岗位)</h4>
-<ul>
-<li><strong>Prime Brokerage Sales / Relationship Management (RM)</strong>
-<ul>
-<li><strong>Focus:</strong> Client acquisition, negotiation, and concierge service.</li>
-<li><strong>Skills:</strong> Negotiation, deep understanding of the hedge fund landscape, cross-selling capabilities (IPOs, Research).</li>
-<li><strong>销售/客户关系管理:</strong> 专注于客户获取、谈判及“管家式”服务。所需技能包括谈判能力、对对冲基金行业的深刻理解及交叉销售能力。</li>
-</ul></li>
-<li><strong>Securities Lending Trader (Stock Loan)</strong>
-<ul>
-<li><strong>Focus:</strong> Sourcing liquidity for hard-to-borrow stocks and managing inventory.</li>
-<li><strong>Skills:</strong> Repo/SBL market mechanics, understanding borrow costs/rates, inventory management.</li>
-<li><strong>证券借贷交易员:</strong> 专注于为“难借”股票寻找流动性并管理库存。所需技能包括理解回购/借贷市场机制、借贷成本及库存管理。</li>
-</ul></li>
-<li><strong>Delta One / Synthetic Trader</strong>
-<ul>
-<li><strong>Focus:</strong> Managing the risk of the Equity Swaps book (hedging Delta/Gamma).</li>
-<li><strong>Skills:</strong> Equity Swaps pricing, hedging strategies, understanding funding spreads (SOFR/Libor), and market microstructure.</li>
-<li><strong>Delta One / 合成交易员:</strong> 专注于管理股票互换账簿的风险。所需技能包括互换定价、对冲策略及对资金利差和市场微观结构的理解。</li>
-</ul></li>
-<li><strong>Structuring / Strategist :</strong>
-<ul>
-<li><strong>Focus:</strong> Designing financing solutions and building automated pricing/risk infrastructure.</li>
-<li><strong>Skills:</strong> <strong>Python/SQL/KDB+</strong> (automation), Financial Engineering (Greeks, RWA optimization), and translating client needs into technical solutions.</li>
-<li><strong>结构化 / 策略师 :</strong> 专注于设计融资方案及搭建自动定价/风控基础设施。所需技能包括 Python/SQL/KDB+（自动化）、金融工程（Greeks, RWA优化）及将客户需求转化为技术方案的能力。</li>
-</ul></li>
-</ul>
-</section>
-<section id="control-support-roles-控制与支持岗位" class="level4">
-<h4 class="anchored" data-anchor-id="control-support-roles-控制与支持岗位">2. Control &amp; Support Roles (控制与支持岗位)</h4>
-<ul>
-<li><strong>Prime Risk Management</strong>
-<ul>
-<li><strong>Focus:</strong> Monitoring leverage and portfolio concentration to prevent client defaults.</li>
-<li><strong>Skills:</strong> Quantitative risk modeling (VaR, Stress Testing), credit risk assessment.</li>
-<li><strong>主经纪商风控:</strong> 监控杠杆和持仓集中度以防止违约。需要量化风险建模（VaR, 压力测试）及信用风险评估技能。</li>
-</ul></li>
-<li><strong>Operations / Client Service</strong>
-<ul>
-<li><strong>Focus:</strong> Trade settlement, asset custody, and corporate actions processing.</li>
-<li><strong>Skills:</strong> Trade lifecycle management (DTCC/Euroclear), operational process optimization.</li>
-<li><strong>运营 / 客服:</strong> 专注于交易结算、资产托管及公司行动处理。需要熟悉交易生命周期管理及流程优化。</li>
-</ul></li>
-<li><strong>Technology / Data Engineering</strong>
-<ul>
-<li><strong>Focus:</strong> Building low-latency trading platforms and data lakes.</li>
-<li><strong>Skills:</strong> Software engineering (C++, Java), Cloud infrastructure (AWS), large-scale database management.</li>
-<li><strong>技术 / 数据工程:</strong> 专注于构建低延迟交易平台及数据湖。需要软件工程及云基础设施技能。</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="conclusion-总结" class="level2">
-<h2 class="anchored" data-anchor-id="conclusion-总结">Conclusion / 总结</h2>
-<p>Prime Brokerage is the infrastructure that powers the hedge fund industry.</p>
-<ul>
-<li><strong>Physical Prime</strong> solves the fundamental needs of borrowing money (<strong>Margin</strong>) and borrowing shares (<strong>Stock Loan</strong>).</li>
-<li><strong>Synthetic Prime</strong> solves the advanced needs of <strong>capital efficiency</strong> and <strong>global access</strong> through derivatives.</li>
-</ul>
-<p>For a Structuring Analyst, the opportunity lies in <strong>automating</strong> these high-volume workflows (e.g., automated swap pricing, real-time risk monitoring) to improve the desk’s scalability and response time.</p>
-<p>主经纪商业务是驱动对冲基金行业的“基础设施”。</p>
-<ul>
-<li><strong>实物业务 (Physical)</strong> 解决了“借钱” (<strong>融资</strong>) 和“借票” (<strong>借券</strong>) 的基本需求。</li>
-<li><strong>合成业务 (Synthetic)</strong> 通过衍生品解决了<strong>资金效率</strong>和<strong>全球市场准入</strong>的高级需求。</li>
-</ul>
-
-
-</section>
-
- ]]></description>
-  <category>Equity Business</category>
-  <category>Prime Brokerage</category>
-  <category>Investment Banking</category>
-  <category>Career</category>
-  <guid>https://your-website-url.example.com/posts/equity_business/prime_brokerage.html</guid>
-  <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/equity_business/PrimeBrokerage.png" medium="image" type="image/png" height="107" width="144"/>
-</item>
-<item>
-  <title>Beyond Vanilla: A Guide to Exotic Equity Derivatives</title>
-  <dc:creator>Sarah </dc:creator>
+  <title>Beyond Vanilla: Fun &amp; Popular Exotic Equity Derivatives</title>
+  <dc:creator>Sarah LI</dc:creator>
   <link>https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives.html</link>
   <description><![CDATA[ 
 
@@ -167,15 +21,15 @@
 
 
 
-<section id="executive-summary-核心摘要" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="executive-summary-核心摘要"><span class="header-section-number">1</span> Executive Summary / 核心摘要</h2>
+<section id="executive-summary-核心摘要" class="level2">
+<h2 class="anchored" data-anchor-id="executive-summary-核心摘要">Executive Summary / 核心摘要</h2>
 <p>This guide deconstructs the key equity derivatives found in the Asian and global markets, ordered from foundational building blocks to complex structured products.</p>
 <p>We focus on the commercial logic: <strong>Market View</strong>, <strong>Payoff Mechanics</strong>, and <strong>Pricing Drivers</strong>.</p>
 <p>本文解构了亚洲及全球市场中的核心股票衍生品，按从基础积木到复杂结构化产品的逻辑排序。我们将重点剖析其商业逻辑：<strong>市场观点</strong>、<strong>支付机制</strong>以及<strong>定价驱动因素</strong>。</p>
 <hr>
 </section>
-<section id="equity-swaps-delta-one-股票互换" class="level2 page-columns page-full" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="equity-swaps-delta-one-股票互换"><span class="header-section-number">2</span> 1. Equity Swaps (Delta One) / 股票互换</h2>
+<section id="equity-swaps-delta-one-股票互换" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="equity-swaps-delta-one-股票互换">1. Equity Swaps (Delta One) / 股票互换</h2>
 <p><strong>The “Synthetic Access” Tool.</strong> The foundation of Prime Brokerage. <strong>“合成准入”工具。</strong> 主经纪商业务的基石。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -383,8 +237,8 @@ Figure&nbsp;1: Equity Swap (Delta One) - Linear Payoff
 <p>如 Figure&nbsp;1 所示，股票互换的收益是线性的，反映了标的资产价格的直接敞口。融资成本的存在使今日价格曲线略低于到期收益曲线。<br> As shown in Figure&nbsp;1, equity swaps provide linear payoff, reflecting direct exposure to the underlying asset price. The financing cost causes the price today curve to be slightly lower than the payoff at maturity curve.</p>
 <hr>
 </section>
-<section id="asian-options-亚式期权" class="level2 page-columns page-full" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="asian-options-亚式期权"><span class="header-section-number">3</span> 2. Asian Options / 亚式期权</h2>
+<section id="asian-options-亚式期权" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="asian-options-亚式期权">2. Asian Options / 亚式期权</h2>
 <p><strong>The “Cheaper” Option.</strong> Popular for hedging corporate expenses or reducing volatility. <strong>“更便宜”的期权。</strong> 常用于企业对冲或降低波动率风险。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -616,8 +470,8 @@ Figure&nbsp;2: Asian Option vs Vanilla Call
 <p>如 Figure&nbsp;2 可以看出，亚式期权的价值曲线更平缓，价格更低。这是因为平均化过程降低了波动率风险。<br> As illustrated in Figure&nbsp;2, the Asian option value curve is flatter and lower priced due to the averaging process reducing volatility risk.</p>
 <hr>
 </section>
-<section id="barrier-options-障碍期权" class="level2 page-columns page-full" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="barrier-options-障碍期权"><span class="header-section-number">4</span> 3. Barrier Options / 障碍期权</h2>
+<section id="barrier-options-障碍期权" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="barrier-options-障碍期权">3. Barrier Options / 障碍期权</h2>
 <p><strong>The “Conditional” Option.</strong> The key building block for Autocalls. <strong>“有条件”的期权。</strong> 构建 Autocall 产品的核心积木。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -979,8 +833,8 @@ Figure&nbsp;3: Barrier Options - Conditional Payoffs
 <p>Figure&nbsp;3 展示了两种常见的障碍期权。<strong>Down-and-In Put</strong> 只在股价跌破障碍价后才被激活，而 <strong>Up-and-Out Call</strong> 则在股价涨破障碍价后失效。<br> As shown in Figure&nbsp;3, the Down-and-In Put is activated only if the stock price falls below the barrier, while the Up-and-Out Call becomes worthless if the stock price rises above its barrier.</p>
 <hr>
 </section>
-<section id="reverse-convertibles-反向可转换票据" class="level2 page-columns page-full" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="reverse-convertibles-反向可转换票据"><span class="header-section-number">5</span> 4. Reverse Convertibles / 反向可转换票据</h2>
+<section id="reverse-convertibles-反向可转换票据" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="reverse-convertibles-反向可转换票据">4. Reverse Convertibles / 反向可转换票据</h2>
 <p><strong>The “High Yield” Note.</strong> Selling insurance to earn income. <strong>“高收益”票据。</strong> 通过卖出保险来赚取收益。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -1275,8 +1129,8 @@ Figure&nbsp;4: Reverse Convertible Note Payoff
 <p>如 Figure&nbsp;4 所示，反向可转换票据在正常市况下提供高票息，但在股价跌破障碍价时面临本金转换风险。投资者实质上是卖出保险（看跌期权）来获取额外收益。<br> As illustrated in Figure&nbsp;4, the Reverse Convertible Note offers high coupon payments under normal market conditions but faces conversion risk if the stock price falls below the barrier. Investors are effectively selling insurance (put option) to earn extra income.</p>
 <hr>
 </section>
-<section id="twin-wins-双赢结构" class="level2 page-columns page-full" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="twin-wins-双赢结构"><span class="header-section-number">6</span> 5. Twin-Wins / 双赢结构</h2>
+<section id="twin-wins-双赢结构" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="twin-wins-双赢结构">5. Twin-Wins / 双赢结构</h2>
 <p><strong>The “Volatility” Play.</strong> Betting on a big move in <em>either</em> direction. <strong>“波动率”玩法。</strong> 押注市场向<em>任一</em>方向大幅波动。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -1500,42 +1354,63 @@ font-style: inherit;">'upper center'</span>, fontsize<span class="op" style="col
 background-color: null;
 font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">9</span>, ncol<span class="op" style="color: #5E5E5E;
+font-style: inherit;">10</span>, framealpha<span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">3</span>, bbox_to_anchor<span class="op" style="color: #5E5E5E;
+font-style: inherit;">0.9</span>,</span>
+<span id="cb5-31">                   bbox_to_anchor<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span>(<span class="fl" style="color: #AD0000;
 background-color: null;
-font-style: inherit;">0.5</span>, <span class="fl" style="color: #AD0000;
+font-style: inherit;">0.5</span>, <span class="op" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;">1.15</span>))</span>
-<span id="cb5-31">ax.grid(<span class="va" style="color: #111111;
+font-style: inherit;">-</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.15</span>),  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 放在图表下方</span></span>
+<span id="cb5-32">                   ncol<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>,  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 水平排列为3列</span></span>
+<span id="cb5-33">                   fancybox<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, shadow<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>)</span>
+<span id="cb5-34">ax.grid(<span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0.3</span>)</span>
-<span id="cb5-32">ax.set_xlim(<span class="dv" style="color: #AD0000;
+<span id="cb5-35">ax.set_xlim(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">140</span>)</span>
-<span id="cb5-33">ax.set_ylim(<span class="dv" style="color: #AD0000;
+<span id="cb5-36">ax.set_ylim(<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">35</span>)</span>
-<span id="cb5-34">plt.tight_layout()</span>
-<span id="cb5-35">plt.show()</span></code></pre></div>
+<span id="cb5-37">plt.tight_layout()</span>
+<span id="cb5-38">plt.show()</span></code></pre></div>
 </details>
 <div class="cell-output cell-output-display page-columns page-full">
 <div id="fig-twinwin" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-twinwin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-twinwin-output-1.png" width="987" height="587" class="figure-img column-page">
+<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-twinwin-output-1.png" width="987" height="574" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-twinwin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5: Twin-Wins Structure (Long Strangle)
@@ -1547,8 +1422,8 @@ Figure&nbsp;5: Twin-Wins Structure (Long Strangle)
 <p>Figure&nbsp;5 清晰地展示了双赢结构的收益特征：在上下两个方向都有盈利潜力，但中间的”死亡区间”使得横盘行情下没有收益。这是典型的波动率策略。<br> As shown in Figure&nbsp;5, the Twin-Wins structure clearly illustrates its payoff characteristics: profit potential exists in both upward and downward directions, while the central “Death Zone” results in no payoff during flat market conditions. This is a classic volatility strategy.</p>
 <hr>
 </section>
-<section id="autocallable-notes-phoenix-凤凰自动赎回票据" class="level2 page-columns page-full" data-number="7">
-<h2 data-number="7" class="anchored" data-anchor-id="autocallable-notes-phoenix-凤凰自动赎回票据"><span class="header-section-number">7</span> 6. Autocallable Notes (Phoenix) / 凤凰自动赎回票据</h2>
+<section id="autocallable-notes-phoenix-凤凰自动赎回票据" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="autocallable-notes-phoenix-凤凰自动赎回票据">6. Autocallable Notes (Phoenix) / 凤凰自动赎回票据</h2>
 <p><strong>The “Market Standard.”</strong> Combining all the blocks above. <strong>“市场标配”。</strong> 上述所有积木的集大成者。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -1895,8 +1770,8 @@ Figure&nbsp;6: Autocallable Note (Phoenix) Payoff Structure
 <p>从 Figure&nbsp;6 可以看到，自动赎回票据有三个关键区域：1）自动赎回区（提前终止并获得高收益）；2）正常到期区（获得票息）；3）敲入风险区（面临本金损失）。这种结构非常适合震荡偏多的市场环境。<br> As illustrated in Figure&nbsp;6, the Autocallable Note has three key regions: 1) Autocall Zone (early termination with high returns); 2) Normal Zone (coupon payment); and 3) Knock-In Risk Zone (potential principal loss). This structure is well-suited for moderately bullish market environments.</p>
 <hr>
 </section>
-<section id="accumulator-koda-累计期权" class="level2 page-columns page-full" data-number="8">
-<h2 data-number="8" class="anchored" data-anchor-id="accumulator-koda-累计期权"><span class="header-section-number">8</span> 7. Accumulator (KODA) / 累计期权</h2>
+<section id="accumulator-koda-累计期权" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="accumulator-koda-累计期权">7. Accumulator (KODA) / 累计期权</h2>
 <p><strong>The “Discounted Buyer.”</strong> Famous for the nickname “I Kill You Later.” <strong>“打折买家”。</strong> 也就是著名的”I Kill You Later”。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -2340,8 +2215,8 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
 <p>Figure&nbsp;7 揭示了累计期权的风险特征：看似可以”打折”买入股票，但当股价大幅下跌时，双倍杠杆机制会迫使投资者在低位高价接盘，造成巨大亏损。这就是其绰号”I Kill You Later”的由来。<br> Figure&nbsp;7 reveals the risk characteristics of accumulators: seemingly able to buy stocks at a “discount”, but when the stock price falls sharply, the double-gearing mechanism forces investors to buy at high prices when the market is low, causing huge losses. This is the origin of its nickname “I Kill You Later”.</p>
 <hr>
 </section>
-<section id="quick-comparison-table-快速对比表" class="level2" data-number="9">
-<h2 data-number="9" class="anchored" data-anchor-id="quick-comparison-table-快速对比表"><span class="header-section-number">9</span> Quick Comparison Table / 快速对比表</h2>
+<section id="quick-comparison-table-快速对比表" class="level2">
+<h2 class="anchored" data-anchor-id="quick-comparison-table-快速对比表">Quick Comparison Table / 快速对比表</h2>
 <table class="table">
 <colgroup>
 <col style="width: 25%">
@@ -2403,8 +2278,8 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
 </tbody>
 </table>
 </section>
-<section id="conclusion-总结" class="level2" data-number="10">
-<h2 data-number="10" class="anchored" data-anchor-id="conclusion-总结"><span class="header-section-number">10</span> Conclusion / 总结</h2>
+<section id="conclusion-总结" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-总结">Conclusion / 总结</h2>
 <p>This guide has walked through seven key exotic equity derivatives, from the foundational Equity Swap to the notoriously risky Accumulator. Each product serves a specific market view and risk appetite:</p>
 <ol type="1">
 <li><strong>Use Swaps</strong> for synthetic access and leverage</li>
@@ -2428,7 +2303,152 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
   <category>Market Insights</category>
   <guid>https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives.html</guid>
   <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/equity_derivatives/ExoticDerivatives.png" medium="image" type="image/png"/>
+  <media:content url="https://your-website-url.example.com/posts/equity_derivatives/autocall.png" medium="image" type="image/png" height="92" width="144"/>
+</item>
+<item>
+  <title>Deep Dive: Equities Prime Brokerage Business Model</title>
+  <dc:creator>Sarah LI</dc:creator>
+  <link>https://your-website-url.example.com/posts/equity_business/prime_brokerage.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="introduction-简介" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-简介">Introduction / 简介</h2>
+<p><strong>Equities Prime Brokerage (PB)</strong> acts as a one-stop “super butler” and “arsenal” for hedge funds and large institutional investors. While the fund’s core competency is its <strong>trading strategy</strong>, the PB’s core competency is solving all <strong>logistical</strong> and <strong>funding</strong> problems outside of that strategy.</p>
+<p><strong>股票主经纪商业务 (Prime Brokerage)</strong> 是为对冲基金和大型机构投资者提供的一站式“超级管家”和“军火库”。如果说基金的核心能力是<strong>交易策略</strong>，那么 PB 的核心能力就是解决除策略以外的所有<strong>后勤</strong>和<strong>资金</strong>问题。</p>
+</section>
+<section id="core-business-model-summary-核心业务模式汇总" class="level2">
+<h2 class="anchored" data-anchor-id="core-business-model-summary-核心业务模式汇总">Core Business Model Summary / 核心业务模式汇总</h2>
+<p><img src="https://your-website-url.example.com/posts/equity_business/PrimeBrokerage.png" class="img-fluid"></p>
+<p>The following table breaks down the Prime Brokerage business by its operational pillars, core products, the specific problems they solve for clients, and their key advantages.</p>
+<p>下表按业务支柱、核心产品、解决的具体痛点以及主要优势，对主经纪商业务进行了详细拆解。</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Business Area <br> 业务领域</th>
+<th style="text-align: left;">Core Product &amp; Key Mechanics <br> 核心产品与核心机制</th>
+<th style="text-align: left;">Problem Solved <br> 解决的痛点</th>
+<th style="text-align: left;">Advantages <br> 优势</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Physical Prime (Financing)</strong> <br> 实物主经纪商 (融资)</td>
+<td style="text-align: left;"><strong>Cash Margin Financing</strong> <br> 现金保证金融资 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> Clients pay <strong>Margin Interest</strong> (e.g., SOFR + Spread). The bank manages risk by setting <strong>Margin Requirements</strong>. <br> 客户支付<strong>融资利息</strong>（如 SOFR + 利差）。银行通过设定<strong>维持保证金</strong>比例来管理风险。</td>
+<td style="text-align: left;"><strong>Capital Constraint:</strong> <br> Clients want to amplify returns (leverage) but are limited by their own capital base. <br><br> <strong>资金痛点：</strong> <br> 客户希望放大收益（上杠杆），但受限于自有资金规模。</td>
+<td style="text-align: left;">• <strong>Maximize Efficiency:</strong> Maximizes capital efficiency via leverage. <br> • <strong>Larger Exposure:</strong> Allows clients to hold larger long positions than cash would permit. <br><br> • <strong>效率最大化：</strong> 通过杠杆最大化资金使用效率。<br> • <strong>扩大敞口：</strong> 允许客户持有比现金所能支持的更大的头寸。</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Physical Prime (Securities Lending)</strong> <br> 实物主经纪商 (证券借贷)</td>
+<td style="text-align: left;"><strong>SBL &amp; Repo</strong> <br> (Securities Borrowing &amp; Lending) <br> 证券借贷与回购协议 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> Clients pay a <strong>Borrow Fee</strong>. For “Hard-to-Borrow” stocks, this fee can be very high. Often structured as a <strong>Reverse Repo</strong>. <br> 客户支付<strong>借券费</strong>。对于“难借”的股票，费用极高。通常通过<strong>逆回购 (Reverse Repo)</strong> 的形式构建。</td>
+<td style="text-align: left;"><strong>Short Selling Restriction:</strong> <br> Clients want to short a stock (bet on price drop) but cannot sell what they do not own. <br><br> <strong>做空痛点：</strong> <br> 客户看跌某股票想做空，但不能卖出自己手里没有的东西。</td>
+<td style="text-align: left;">• <strong>Enable Shorting:</strong> Enables Long/Short strategies. <br> • <strong>Liquidity:</strong> Provides liquidity for “hard-to-borrow” assets. <br> • <strong>Yield:</strong> Generates extra yield for asset lenders. <br><br> • <strong>实现做空：</strong> 支持多空策略的执行。<br> • <strong>提供流动性：</strong> 为“难借”资产提供流动性。<br> • <strong>产生收益：</strong> 为借出资产的一方创造额外收益。</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Physical Prime (Operations)</strong> <br> 实物主经纪商 (运营)</td>
+<td style="text-align: left;"><strong>Clearing, Settlement &amp; Custody</strong> <br> 清算、结算与托管 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> <strong>Centralized Clearing.</strong> The PB consolidates trades from various executing brokers into one account. <br> <strong>集中清算。</strong> 主经纪商将来自不同执行券商的所有交易汇总到一个账户中。</td>
+<td style="text-align: left;"><strong>Operational Complexity:</strong> <br> Managing thousands of trades across multiple exchanges is costly and prone to settlement errors. <br><br> <strong>运营痛点：</strong> <br> 管理跨多个交易所的数千笔交易成本极高，且容易出现结算错误。</td>
+<td style="text-align: left;">• <strong>Centralization:</strong> Centralizes asset safekeeping. <br> • <strong>Efficiency:</strong> Reduces back-office administrative burden. <br> • <strong>Risk Mitigation:</strong> Mitigates counterparty and settlement risks. <br><br> • <strong>集中管理：</strong> 集中保管资产，确保安全。<br> • <strong>提升效率：</strong> 减轻后台行政负担。<br> • <strong>降低风险：</strong> 缓解对手方风险和结算风险。</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Synthetic Prime (Delta One)</strong> <br> 合成主经纪商 (Delta One)</td>
+<td style="text-align: left;"><strong>Equity Swaps / Total Return Swaps (TRS)</strong> <br> 股票互换 / 总回报互换 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> The client receives the <strong>“Total Return”</strong> (Capital Gains + Dividends) and pays a <strong>“Financing Rate”</strong> to the bank. <br> 客户收取<strong>“总回报”</strong>（资本增值+股息），并向银行支付<strong>“融资利率”</strong>。</td>
+<td style="text-align: left;"><strong>Market Access &amp; Efficiency:</strong> <br> Direct ownership is difficult (e.g., restricted markets), tax-inefficient, or capital-intensive. <br><br> <strong>准入与效率痛点：</strong> <br> 直接持有实物股票可能面临市场准入限制、税务低效或资金占用过高的问题。</td>
+<td style="text-align: left;">• <strong>Market Access:</strong> Access restricted markets (e.g., China A-shares, emerging markets). <br> • <strong>High Leverage:</strong> Often requires lower margin than physical financing. <br> • <strong>Operational Ease:</strong> Avoids stamp duties and custody complexities. <br><br> • <strong>市场准入：</strong> 轻松进入受限市场（如中国A股、新兴市场）。<br> • <strong>高杠杆：</strong> 通常比实物融资这就需要更低的保证金。<br> • <strong>运营便捷：</strong> 规避印花税和复杂的托管流程。</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="key-roles-skills-in-prime-brokerage-核心岗位与技能" class="level2">
+<h2 class="anchored" data-anchor-id="key-roles-skills-in-prime-brokerage-核心岗位与技能">Key Roles &amp; Skills in Prime Brokerage / 核心岗位与技能</h2>
+<p>The Prime Brokerage ecosystem relies on a diverse set of professionals, from client-facing sales to technical builders. Below are the key roles and the critical skills required to succeed in each.</p>
+<p>主经纪商业务生态依赖于多种专业人才的协同工作，从面向客户的销售到技术构建者。以下是核心岗位及其所需的关键技能。</p>
+<section id="front-office-roles-前台岗位" class="level4">
+<h4 class="anchored" data-anchor-id="front-office-roles-前台岗位">1. Front Office Roles (前台岗位)</h4>
+<ul>
+<li><strong>Prime Brokerage Sales / Relationship Management (RM)</strong>
+<ul>
+<li><strong>Focus:</strong> Client acquisition, negotiation, and concierge service.</li>
+<li><strong>Skills:</strong> Negotiation, deep understanding of the hedge fund landscape, cross-selling capabilities (IPOs, Research).</li>
+<li><strong>销售/客户关系管理:</strong> 专注于客户获取、谈判及“管家式”服务。所需技能包括谈判能力、对对冲基金行业的深刻理解及交叉销售能力。</li>
+</ul></li>
+<li><strong>Securities Lending Trader (Stock Loan)</strong>
+<ul>
+<li><strong>Focus:</strong> Sourcing liquidity for hard-to-borrow stocks and managing inventory.</li>
+<li><strong>Skills:</strong> Repo/SBL market mechanics, understanding borrow costs/rates, inventory management.</li>
+<li><strong>证券借贷交易员:</strong> 专注于为“难借”股票寻找流动性并管理库存。所需技能包括理解回购/借贷市场机制、借贷成本及库存管理。</li>
+</ul></li>
+<li><strong>Delta One / Synthetic Trader</strong>
+<ul>
+<li><strong>Focus:</strong> Managing the risk of the Equity Swaps book (hedging Delta/Gamma).</li>
+<li><strong>Skills:</strong> Equity Swaps pricing, hedging strategies, understanding funding spreads (SOFR/Libor), and market microstructure.</li>
+<li><strong>Delta One / 合成交易员:</strong> 专注于管理股票互换账簿的风险。所需技能包括互换定价、对冲策略及对资金利差和市场微观结构的理解。</li>
+</ul></li>
+<li><strong>Structuring / Strategist :</strong>
+<ul>
+<li><strong>Focus:</strong> Designing financing solutions and building automated pricing/risk infrastructure.</li>
+<li><strong>Skills:</strong> <strong>Python/SQL/KDB+</strong> (automation), Financial Engineering (Greeks, RWA optimization), and translating client needs into technical solutions.</li>
+<li><strong>结构化 / 策略师 :</strong> 专注于设计融资方案及搭建自动定价/风控基础设施。所需技能包括 Python/SQL/KDB+（自动化）、金融工程（Greeks, RWA优化）及将客户需求转化为技术方案的能力。</li>
+</ul></li>
+</ul>
+</section>
+<section id="control-support-roles-控制与支持岗位" class="level4">
+<h4 class="anchored" data-anchor-id="control-support-roles-控制与支持岗位">2. Control &amp; Support Roles (控制与支持岗位)</h4>
+<ul>
+<li><strong>Prime Risk Management</strong>
+<ul>
+<li><strong>Focus:</strong> Monitoring leverage and portfolio concentration to prevent client defaults.</li>
+<li><strong>Skills:</strong> Quantitative risk modeling (VaR, Stress Testing), credit risk assessment.</li>
+<li><strong>主经纪商风控:</strong> 监控杠杆和持仓集中度以防止违约。需要量化风险建模（VaR, 压力测试）及信用风险评估技能。</li>
+</ul></li>
+<li><strong>Operations / Client Service</strong>
+<ul>
+<li><strong>Focus:</strong> Trade settlement, asset custody, and corporate actions processing.</li>
+<li><strong>Skills:</strong> Trade lifecycle management (DTCC/Euroclear), operational process optimization.</li>
+<li><strong>运营 / 客服:</strong> 专注于交易结算、资产托管及公司行动处理。需要熟悉交易生命周期管理及流程优化。</li>
+</ul></li>
+<li><strong>Technology / Data Engineering</strong>
+<ul>
+<li><strong>Focus:</strong> Building low-latency trading platforms and data lakes.</li>
+<li><strong>Skills:</strong> Software engineering (C++, Java), Cloud infrastructure (AWS), large-scale database management.</li>
+<li><strong>技术 / 数据工程:</strong> 专注于构建低延迟交易平台及数据湖。需要软件工程及云基础设施技能。</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="conclusion-总结" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-总结">Conclusion / 总结</h2>
+<p>Prime Brokerage is the infrastructure that powers the hedge fund industry.</p>
+<ul>
+<li><strong>Physical Prime</strong> solves the fundamental needs of borrowing money (<strong>Margin</strong>) and borrowing shares (<strong>Stock Loan</strong>).</li>
+<li><strong>Synthetic Prime</strong> solves the advanced needs of <strong>capital efficiency</strong> and <strong>global access</strong> through derivatives.</li>
+</ul>
+<p>For a Structuring Analyst, the opportunity lies in <strong>automating</strong> these high-volume workflows (e.g., automated swap pricing, real-time risk monitoring) to improve the desk’s scalability and response time.</p>
+<p>主经纪商业务是驱动对冲基金行业的“基础设施”。</p>
+<ul>
+<li><strong>实物业务 (Physical)</strong> 解决了“借钱” (<strong>融资</strong>) 和“借票” (<strong>借券</strong>) 的基本需求。</li>
+<li><strong>合成业务 (Synthetic)</strong> 通过衍生品解决了<strong>资金效率</strong>和<strong>全球市场准入</strong>的高级需求。</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Equity Business</category>
+  <category>Prime Brokerage</category>
+  <category>Investment Banking</category>
+  <guid>https://your-website-url.example.com/posts/equity_business/prime_brokerage.html</guid>
+  <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/equity_business/PrimeBrokerage.png" medium="image" type="image/png" height="107" width="144"/>
 </item>
 <item>
   <title>市场周报 (46/52)｜政府关门协议落地，市场“卖出事实”</title>

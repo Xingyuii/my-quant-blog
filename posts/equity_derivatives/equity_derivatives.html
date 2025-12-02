@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sarah">
+<meta name="author" content="Sarah LI">
 <meta name="dcterms.date" content="2025-12-02">
-<meta name="description" content="A structured breakdown of popular equity derivatives from basic swaps to complex autocallables, explaining their mechanics, market views, and pricing drivers.">
+<meta name="description" content="An introduction to several popular equity derivatives, from basic swaps to complex autocallables, explaining their mechanics, market views, and pricing drivers.">
 
-<title>Sarah’s Blog - Beyond Vanilla: A Guide to Exotic Equity Derivatives</title>
+<title>Sarah’s Blog - Beyond Vanilla: Fun &amp; Popular Exotic Equity Derivatives</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -214,11 +214,11 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Beyond Vanilla: A Guide to Exotic Equity Derivatives</h1>
-            <p class="subtitle lead">超越香草期权：股票奇异衍生品实战指南</p>
+      <h1 class="title">Beyond Vanilla: Fun &amp; Popular Exotic Equity Derivatives</h1>
+            <p class="subtitle lead">不止香草期权：有趣流行的股票奇异衍生品</p>
                   <div>
         <div class="description">
-          A structured breakdown of popular equity derivatives from basic swaps to complex autocallables, explaining their mechanics, market views, and pricing drivers.
+          An introduction to several popular equity derivatives, from basic swaps to complex autocallables, explaining their mechanics, market views, and pricing drivers.
         </div>
       </div>
                           <div class="quarto-categories">
@@ -236,7 +236,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Sarah </p>
+               <p>Sarah LI </p>
             </div>
     </div>
       
@@ -259,16 +259,16 @@ window.Quarto = {
     <h2 id="toc-title">目录</h2>
    
   <ul>
-  <li><a href="#executive-summary-核心摘要" id="toc-executive-summary-核心摘要" class="nav-link active" data-scroll-target="#executive-summary-核心摘要"><span class="header-section-number">1</span> Executive Summary / 核心摘要</a></li>
-  <li><a href="#equity-swaps-delta-one-股票互换" id="toc-equity-swaps-delta-one-股票互换" class="nav-link" data-scroll-target="#equity-swaps-delta-one-股票互换"><span class="header-section-number">2</span> 1. Equity Swaps (Delta One) / 股票互换</a></li>
-  <li><a href="#asian-options-亚式期权" id="toc-asian-options-亚式期权" class="nav-link" data-scroll-target="#asian-options-亚式期权"><span class="header-section-number">3</span> 2. Asian Options / 亚式期权</a></li>
-  <li><a href="#barrier-options-障碍期权" id="toc-barrier-options-障碍期权" class="nav-link" data-scroll-target="#barrier-options-障碍期权"><span class="header-section-number">4</span> 3. Barrier Options / 障碍期权</a></li>
-  <li><a href="#reverse-convertibles-反向可转换票据" id="toc-reverse-convertibles-反向可转换票据" class="nav-link" data-scroll-target="#reverse-convertibles-反向可转换票据"><span class="header-section-number">5</span> 4. Reverse Convertibles / 反向可转换票据</a></li>
-  <li><a href="#twin-wins-双赢结构" id="toc-twin-wins-双赢结构" class="nav-link" data-scroll-target="#twin-wins-双赢结构"><span class="header-section-number">6</span> 5. Twin-Wins / 双赢结构</a></li>
-  <li><a href="#autocallable-notes-phoenix-凤凰自动赎回票据" id="toc-autocallable-notes-phoenix-凤凰自动赎回票据" class="nav-link" data-scroll-target="#autocallable-notes-phoenix-凤凰自动赎回票据"><span class="header-section-number">7</span> 6. Autocallable Notes (Phoenix) / 凤凰自动赎回票据</a></li>
-  <li><a href="#accumulator-koda-累计期权" id="toc-accumulator-koda-累计期权" class="nav-link" data-scroll-target="#accumulator-koda-累计期权"><span class="header-section-number">8</span> 7. Accumulator (KODA) / 累计期权</a></li>
-  <li><a href="#quick-comparison-table-快速对比表" id="toc-quick-comparison-table-快速对比表" class="nav-link" data-scroll-target="#quick-comparison-table-快速对比表"><span class="header-section-number">9</span> Quick Comparison Table / 快速对比表</a></li>
-  <li><a href="#conclusion-总结" id="toc-conclusion-总结" class="nav-link" data-scroll-target="#conclusion-总结"><span class="header-section-number">10</span> Conclusion / 总结</a></li>
+  <li><a href="#executive-summary-核心摘要" id="toc-executive-summary-核心摘要" class="nav-link active" data-scroll-target="#executive-summary-核心摘要">Executive Summary / 核心摘要</a></li>
+  <li><a href="#equity-swaps-delta-one-股票互换" id="toc-equity-swaps-delta-one-股票互换" class="nav-link" data-scroll-target="#equity-swaps-delta-one-股票互换">1. Equity Swaps (Delta One) / 股票互换</a></li>
+  <li><a href="#asian-options-亚式期权" id="toc-asian-options-亚式期权" class="nav-link" data-scroll-target="#asian-options-亚式期权">2. Asian Options / 亚式期权</a></li>
+  <li><a href="#barrier-options-障碍期权" id="toc-barrier-options-障碍期权" class="nav-link" data-scroll-target="#barrier-options-障碍期权">3. Barrier Options / 障碍期权</a></li>
+  <li><a href="#reverse-convertibles-反向可转换票据" id="toc-reverse-convertibles-反向可转换票据" class="nav-link" data-scroll-target="#reverse-convertibles-反向可转换票据">4. Reverse Convertibles / 反向可转换票据</a></li>
+  <li><a href="#twin-wins-双赢结构" id="toc-twin-wins-双赢结构" class="nav-link" data-scroll-target="#twin-wins-双赢结构">5. Twin-Wins / 双赢结构</a></li>
+  <li><a href="#autocallable-notes-phoenix-凤凰自动赎回票据" id="toc-autocallable-notes-phoenix-凤凰自动赎回票据" class="nav-link" data-scroll-target="#autocallable-notes-phoenix-凤凰自动赎回票据">6. Autocallable Notes (Phoenix) / 凤凰自动赎回票据</a></li>
+  <li><a href="#accumulator-koda-累计期权" id="toc-accumulator-koda-累计期权" class="nav-link" data-scroll-target="#accumulator-koda-累计期权">7. Accumulator (KODA) / 累计期权</a></li>
+  <li><a href="#quick-comparison-table-快速对比表" id="toc-quick-comparison-table-快速对比表" class="nav-link" data-scroll-target="#quick-comparison-table-快速对比表">Quick Comparison Table / 快速对比表</a></li>
+  <li><a href="#conclusion-总结" id="toc-conclusion-总结" class="nav-link" data-scroll-target="#conclusion-总结">Conclusion / 总结</a></li>
   </ul>
 </nav>
     </div>
@@ -279,15 +279,15 @@ window.Quarto = {
 
 
 
-<section id="executive-summary-核心摘要" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="executive-summary-核心摘要"><span class="header-section-number">1</span> Executive Summary / 核心摘要</h2>
+<section id="executive-summary-核心摘要" class="level2">
+<h2 class="anchored" data-anchor-id="executive-summary-核心摘要">Executive Summary / 核心摘要</h2>
 <p>This guide deconstructs the key equity derivatives found in the Asian and global markets, ordered from foundational building blocks to complex structured products.</p>
 <p>We focus on the commercial logic: <strong>Market View</strong>, <strong>Payoff Mechanics</strong>, and <strong>Pricing Drivers</strong>.</p>
 <p>本文解构了亚洲及全球市场中的核心股票衍生品，按从基础积木到复杂结构化产品的逻辑排序。我们将重点剖析其商业逻辑：<strong>市场观点</strong>、<strong>支付机制</strong>以及<strong>定价驱动因素</strong>。</p>
 <hr>
 </section>
-<section id="equity-swaps-delta-one-股票互换" class="level2 page-columns page-full" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="equity-swaps-delta-one-股票互换"><span class="header-section-number">2</span> 1. Equity Swaps (Delta One) / 股票互换</h2>
+<section id="equity-swaps-delta-one-股票互换" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="equity-swaps-delta-one-股票互换">1. Equity Swaps (Delta One) / 股票互换</h2>
 <p><strong>The “Synthetic Access” Tool.</strong> The foundation of Prime Brokerage. <strong>“合成准入”工具。</strong> 主经纪商业务的基石。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -355,8 +355,8 @@ Figure&nbsp;1: Equity Swap (Delta One) - Linear Payoff
 <p>如 <a href="#fig-swap" class="quarto-xref">Figure&nbsp;1</a> 所示，股票互换的收益是线性的，反映了标的资产价格的直接敞口。融资成本的存在使今日价格曲线略低于到期收益曲线。<br> As shown in <a href="#fig-swap" class="quarto-xref">Figure&nbsp;1</a>, equity swaps provide linear payoff, reflecting direct exposure to the underlying asset price. The financing cost causes the price today curve to be slightly lower than the payoff at maturity curve.</p>
 <hr>
 </section>
-<section id="asian-options-亚式期权" class="level2 page-columns page-full" data-number="3">
-<h2 data-number="3" class="anchored" data-anchor-id="asian-options-亚式期权"><span class="header-section-number">3</span> 2. Asian Options / 亚式期权</h2>
+<section id="asian-options-亚式期权" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="asian-options-亚式期权">2. Asian Options / 亚式期权</h2>
 <p><strong>The “Cheaper” Option.</strong> Popular for hedging corporate expenses or reducing volatility. <strong>“更便宜”的期权。</strong> 常用于企业对冲或降低波动率风险。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -434,8 +434,8 @@ Figure&nbsp;2: Asian Option vs Vanilla Call
 <p>如 <a href="#fig-asian" class="quarto-xref">Figure&nbsp;2</a> 可以看出，亚式期权的价值曲线更平缓，价格更低。这是因为平均化过程降低了波动率风险。<br> As illustrated in <a href="#fig-asian" class="quarto-xref">Figure&nbsp;2</a>, the Asian option value curve is flatter and lower priced due to the averaging process reducing volatility risk.</p>
 <hr>
 </section>
-<section id="barrier-options-障碍期权" class="level2 page-columns page-full" data-number="4">
-<h2 data-number="4" class="anchored" data-anchor-id="barrier-options-障碍期权"><span class="header-section-number">4</span> 3. Barrier Options / 障碍期权</h2>
+<section id="barrier-options-障碍期权" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="barrier-options-障碍期权">3. Barrier Options / 障碍期权</h2>
 <p><strong>The “Conditional” Option.</strong> The key building block for Autocalls. <strong>“有条件”的期权。</strong> 构建 Autocall 产品的核心积木。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -527,8 +527,8 @@ Figure&nbsp;3: Barrier Options - Conditional Payoffs
 <p><a href="#fig-barrier" class="quarto-xref">Figure&nbsp;3</a> 展示了两种常见的障碍期权。<strong>Down-and-In Put</strong> 只在股价跌破障碍价后才被激活，而 <strong>Up-and-Out Call</strong> 则在股价涨破障碍价后失效。<br> As shown in <a href="#fig-barrier" class="quarto-xref">Figure&nbsp;3</a>, the Down-and-In Put is activated only if the stock price falls below the barrier, while the Up-and-Out Call becomes worthless if the stock price rises above its barrier.</p>
 <hr>
 </section>
-<section id="reverse-convertibles-反向可转换票据" class="level2 page-columns page-full" data-number="5">
-<h2 data-number="5" class="anchored" data-anchor-id="reverse-convertibles-反向可转换票据"><span class="header-section-number">5</span> 4. Reverse Convertibles / 反向可转换票据</h2>
+<section id="reverse-convertibles-反向可转换票据" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="reverse-convertibles-反向可转换票据">4. Reverse Convertibles / 反向可转换票据</h2>
 <p><strong>The “High Yield” Note.</strong> Selling insurance to earn income. <strong>“高收益”票据。</strong> 通过卖出保险来赚取收益。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -611,8 +611,8 @@ Figure&nbsp;4: Reverse Convertible Note Payoff
 <p>如 <a href="#fig-reverse" class="quarto-xref">Figure&nbsp;4</a> 所示，反向可转换票据在正常市况下提供高票息，但在股价跌破障碍价时面临本金转换风险。投资者实质上是卖出保险（看跌期权）来获取额外收益。<br> As illustrated in <a href="#fig-reverse" class="quarto-xref">Figure&nbsp;4</a>, the Reverse Convertible Note offers high coupon payments under normal market conditions but faces conversion risk if the stock price falls below the barrier. Investors are effectively selling insurance (put option) to earn extra income.</p>
 <hr>
 </section>
-<section id="twin-wins-双赢结构" class="level2 page-columns page-full" data-number="6">
-<h2 data-number="6" class="anchored" data-anchor-id="twin-wins-双赢结构"><span class="header-section-number">6</span> 5. Twin-Wins / 双赢结构</h2>
+<section id="twin-wins-双赢结构" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="twin-wins-双赢结构">5. Twin-Wins / 双赢结构</h2>
 <p><strong>The “Volatility” Play.</strong> Betting on a big move in <em>either</em> direction. <strong>“波动率”玩法。</strong> 押注市场向<em>任一</em>方向大幅波动。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -668,18 +668,21 @@ Figure&nbsp;4: Reverse Convertible Note Payoff
 <span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>ax.set_title(<span class="st">'5. Twin-Wins Structure (Long Strangle)'</span>, fontsize<span class="op">=</span><span class="dv">14</span>, fontweight<span class="op">=</span><span class="st">'bold'</span>)</span>
 <span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>ax.set_xlabel(<span class="st">'Stock Price at Maturity'</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
 <span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">'Payoff'</span>, fontsize<span class="op">=</span><span class="dv">12</span>)</span>
-<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>ax.legend(loc<span class="op">=</span><span class="st">'upper center'</span>, fontsize<span class="op">=</span><span class="dv">9</span>, ncol<span class="op">=</span><span class="dv">3</span>, bbox_to_anchor<span class="op">=</span>(<span class="fl">0.5</span>, <span class="fl">1.15</span>))</span>
-<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>, alpha<span class="op">=</span><span class="fl">0.3</span>)</span>
-<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>ax.set_xlim(<span class="dv">60</span>, <span class="dv">140</span>)</span>
-<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>ax.set_ylim(<span class="dv">0</span>, <span class="dv">35</span>)</span>
-<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
-<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>ax.legend(loc<span class="op">=</span><span class="st">'upper center'</span>, fontsize<span class="op">=</span><span class="dv">10</span>, framealpha<span class="op">=</span><span class="fl">0.9</span>,</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>                   bbox_to_anchor<span class="op">=</span>(<span class="fl">0.5</span>, <span class="op">-</span><span class="fl">0.15</span>),  <span class="co"># 放在图表下方</span></span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>                   ncol<span class="op">=</span><span class="dv">3</span>,  <span class="co"># 水平排列为3列</span></span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>                   fancybox<span class="op">=</span><span class="va">True</span>, shadow<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>ax.grid(<span class="va">True</span>, alpha<span class="op">=</span><span class="fl">0.3</span>)</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>ax.set_xlim(<span class="dv">60</span>, <span class="dv">140</span>)</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>ax.set_ylim(<span class="dv">0</span>, <span class="dv">35</span>)</span>
+<span id="cb5-37"><a href="#cb5-37" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb5-38"><a href="#cb5-38" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output cell-output-display page-columns page-full">
 <div id="fig-twinwin" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-twinwin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="equity_derivatives_files/figure-html/fig-twinwin-output-1.png" width="987" height="587" class="figure-img column-page">
+<img src="equity_derivatives_files/figure-html/fig-twinwin-output-1.png" width="987" height="574" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-twinwin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5: Twin-Wins Structure (Long Strangle)
@@ -691,8 +694,8 @@ Figure&nbsp;5: Twin-Wins Structure (Long Strangle)
 <p><a href="#fig-twinwin" class="quarto-xref">Figure&nbsp;5</a> 清晰地展示了双赢结构的收益特征：在上下两个方向都有盈利潜力，但中间的”死亡区间”使得横盘行情下没有收益。这是典型的波动率策略。<br> As shown in <a href="#fig-twinwin" class="quarto-xref">Figure&nbsp;5</a>, the Twin-Wins structure clearly illustrates its payoff characteristics: profit potential exists in both upward and downward directions, while the central “Death Zone” results in no payoff during flat market conditions. This is a classic volatility strategy.</p>
 <hr>
 </section>
-<section id="autocallable-notes-phoenix-凤凰自动赎回票据" class="level2 page-columns page-full" data-number="7">
-<h2 data-number="7" class="anchored" data-anchor-id="autocallable-notes-phoenix-凤凰自动赎回票据"><span class="header-section-number">7</span> 6. Autocallable Notes (Phoenix) / 凤凰自动赎回票据</h2>
+<section id="autocallable-notes-phoenix-凤凰自动赎回票据" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="autocallable-notes-phoenix-凤凰自动赎回票据">6. Autocallable Notes (Phoenix) / 凤凰自动赎回票据</h2>
 <p><strong>The “Market Standard.”</strong> Combining all the blocks above. <strong>“市场标配”。</strong> 上述所有积木的集大成者。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -787,8 +790,8 @@ Figure&nbsp;6: Autocallable Note (Phoenix) Payoff Structure
 <p>从 <a href="#fig-autocall" class="quarto-xref">Figure&nbsp;6</a> 可以看到，自动赎回票据有三个关键区域：1）自动赎回区（提前终止并获得高收益）；2）正常到期区（获得票息）；3）敲入风险区（面临本金损失）。这种结构非常适合震荡偏多的市场环境。<br> As illustrated in <a href="#fig-autocall" class="quarto-xref">Figure&nbsp;6</a>, the Autocallable Note has three key regions: 1) Autocall Zone (early termination with high returns); 2) Normal Zone (coupon payment); and 3) Knock-In Risk Zone (potential principal loss). This structure is well-suited for moderately bullish market environments.</p>
 <hr>
 </section>
-<section id="accumulator-koda-累计期权" class="level2 page-columns page-full" data-number="8">
-<h2 data-number="8" class="anchored" data-anchor-id="accumulator-koda-累计期权"><span class="header-section-number">8</span> 7. Accumulator (KODA) / 累计期权</h2>
+<section id="accumulator-koda-累计期权" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="accumulator-koda-累计期权">7. Accumulator (KODA) / 累计期权</h2>
 <p><strong>The “Discounted Buyer.”</strong> Famous for the nickname “I Kill You Later.” <strong>“打折买家”。</strong> 也就是著名的”I Kill You Later”。</p>
 <ul>
 <li><strong>What is it (是什么):</strong>
@@ -890,8 +893,8 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
 <p><a href="#fig-accumulator" class="quarto-xref">Figure&nbsp;7</a> 揭示了累计期权的风险特征：看似可以”打折”买入股票，但当股价大幅下跌时，双倍杠杆机制会迫使投资者在低位高价接盘，造成巨大亏损。这就是其绰号”I Kill You Later”的由来。<br> <a href="#fig-accumulator" class="quarto-xref">Figure&nbsp;7</a> reveals the risk characteristics of accumulators: seemingly able to buy stocks at a “discount”, but when the stock price falls sharply, the double-gearing mechanism forces investors to buy at high prices when the market is low, causing huge losses. This is the origin of its nickname “I Kill You Later”.</p>
 <hr>
 </section>
-<section id="quick-comparison-table-快速对比表" class="level2" data-number="9">
-<h2 data-number="9" class="anchored" data-anchor-id="quick-comparison-table-快速对比表"><span class="header-section-number">9</span> Quick Comparison Table / 快速对比表</h2>
+<section id="quick-comparison-table-快速对比表" class="level2">
+<h2 class="anchored" data-anchor-id="quick-comparison-table-快速对比表">Quick Comparison Table / 快速对比表</h2>
 <table class="table">
 <colgroup>
 <col style="width: 25%">
@@ -953,8 +956,8 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
 </tbody>
 </table>
 </section>
-<section id="conclusion-总结" class="level2" data-number="10">
-<h2 data-number="10" class="anchored" data-anchor-id="conclusion-总结"><span class="header-section-number">10</span> Conclusion / 总结</h2>
+<section id="conclusion-总结" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-总结">Conclusion / 总结</h2>
 <p>This guide has walked through seven key exotic equity derivatives, from the foundational Equity Swap to the notoriously risky Accumulator. Each product serves a specific market view and risk appetite:</p>
 <ol type="1">
 <li><strong>Use Swaps</strong> for synthetic access and leverage</li>
