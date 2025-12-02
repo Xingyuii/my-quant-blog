@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Sarah&#39;s Blog</title>
-<link>https://your-website-url.example.com/</link>
-<atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://xingyuii.github.io/my-quant-blog/</link>
+<atom:link href="https://xingyuii.github.io/my-quant-blog/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.4.554</generator>
 <lastBuildDate>Tue, 02 Dec 2025 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Beyond Vanilla: Fun &amp; Popular Exotic Equity Derivatives</title>
   <dc:creator>Sarah LI</dc:creator>
-  <link>https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives.html</link>
+  <link>https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives.html</link>
   <description><![CDATA[ 
 
 
@@ -225,7 +225,7 @@ font-style: inherit;">120</span>)</span>
 <div id="fig-swap" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-swap-output-1.png" width="987" height="587" class="figure-img column-page">
+<img src="https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-swap-output-1.png" width="987" height="587" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;1: Equity Swap (Delta One) - Linear Payoff
@@ -458,7 +458,7 @@ font-style: inherit;">35</span>)</span>
 <div id="fig-asian" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-asian-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-asian-output-1.png" width="987" height="587" class="figure-img column-page">
+<img src="https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-asian-output-1.png" width="987" height="587" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-asian-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;2: Asian Option vs Vanilla Call
@@ -821,7 +821,7 @@ font-style: inherit;">1.02</span>)</span>
 <div id="fig-barrier" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-barrier-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-barrier-output-1.png" width="1387" height="615" class="figure-img column-page">
+<img src="https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-barrier-output-1.png" width="1387" height="615" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-barrier-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;3: Barrier Options - Conditional Payoffs
@@ -1117,7 +1117,7 @@ font-style: inherit;">120</span>)</span>
 <div id="fig-reverse" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-reverse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-reverse-output-1.png" width="987" height="587" class="figure-img column-page">
+<img src="https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-reverse-output-1.png" width="987" height="587" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-reverse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;4: Reverse Convertible Note Payoff
@@ -1410,7 +1410,7 @@ font-style: inherit;">35</span>)</span>
 <div id="fig-twinwin" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-twinwin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-twinwin-output-1.png" width="987" height="574" class="figure-img column-page">
+<img src="https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-twinwin-output-1.png" width="987" height="574" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-twinwin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5: Twin-Wins Structure (Long Strangle)
@@ -1758,7 +1758,7 @@ font-style: inherit;">130</span>)</span>
 <div id="fig-autocall" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-autocall-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-autocall-output-1.png" width="987" height="587" class="figure-img column-page">
+<img src="https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-autocall-output-1.png" width="987" height="587" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-autocall-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;6: Autocallable Note (Phoenix) Payoff Structure
@@ -2203,7 +2203,7 @@ font-style: inherit;">100</span>)</span>
 <div id="fig-accumulator" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
 <figure class="quarto-float quarto-float-fig figure page-columns page-full">
 <div aria-describedby="fig-accumulator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
-<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-accumulator-output-1.png" width="987" height="587" class="figure-img column-page">
+<img src="https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-accumulator-output-1.png" width="987" height="587" class="figure-img column-page">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-accumulator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
@@ -2300,14 +2300,14 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
   <category>Derivatives</category>
   <category>Equity Business</category>
   <category>Investment Banking</category>
-  <guid>https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives.html</guid>
+  <guid>https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/equity_derivatives.html</guid>
   <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/equity_derivatives/autocall.png" medium="image" type="image/png" height="92" width="144"/>
+  <media:content url="https://xingyuii.github.io/my-quant-blog/posts/equity_derivatives/autocall.png" medium="image" type="image/png" height="92" width="144"/>
 </item>
 <item>
   <title>Deep Dive: Equities Prime Brokerage Business Model</title>
   <dc:creator>Sarah LI</dc:creator>
-  <link>https://your-website-url.example.com/posts/equity_business/prime_brokerage.html</link>
+  <link>https://xingyuii.github.io/my-quant-blog/posts/equity_business/prime_brokerage.html</link>
   <description><![CDATA[ 
 
 
@@ -2321,7 +2321,7 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
 </section>
 <section id="core-business-model-summary-核心业务模式汇总" class="level2">
 <h2 class="anchored" data-anchor-id="core-business-model-summary-核心业务模式汇总">Core Business Model Summary / 核心业务模式汇总</h2>
-<p><img src="https://your-website-url.example.com/posts/equity_business/PrimeBrokerage.png" class="img-fluid"></p>
+<p><img src="https://xingyuii.github.io/my-quant-blog/posts/equity_business/PrimeBrokerage.png" class="img-fluid"></p>
 <p>The following table breaks down the Prime Brokerage business by its operational pillars, core products, the specific problems they solve for clients, and their key advantages.</p>
 <p>下表按业务支柱、核心产品、解决的具体痛点以及主要优势，对主经纪商业务进行了详细拆解。</p>
 <table class="table">
@@ -2445,14 +2445,14 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
   <category>Prime Brokerage</category>
   <category>Equity Business</category>
   <category>Investment Banking</category>
-  <guid>https://your-website-url.example.com/posts/equity_business/prime_brokerage.html</guid>
+  <guid>https://xingyuii.github.io/my-quant-blog/posts/equity_business/prime_brokerage.html</guid>
   <pubDate>Mon, 01 Dec 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/equity_business/PrimeBrokerage.png" medium="image" type="image/png" height="107" width="144"/>
+  <media:content url="https://xingyuii.github.io/my-quant-blog/posts/equity_business/PrimeBrokerage.png" medium="image" type="image/png" height="107" width="144"/>
 </item>
 <item>
   <title>市场周报 (46/52)｜政府关门协议落地，市场“卖出事实”</title>
   <dc:creator>Sarah LI</dc:creator>
-  <link>https://your-website-url.example.com/posts/trading-1/</link>
+  <link>https://xingyuii.github.io/my-quant-blog/posts/trading-1/</link>
   <description><![CDATA[ 
 
 
@@ -2490,14 +2490,14 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
   <category>trading</category>
   <category>news</category>
   <category>weekly review</category>
-  <guid>https://your-website-url.example.com/posts/trading-1/</guid>
+  <guid>https://xingyuii.github.io/my-quant-blog/posts/trading-1/</guid>
   <pubDate>Sun, 16 Nov 2025 00:00:00 GMT</pubDate>
-  <media:content url="https://your-website-url.example.com/posts/trading-1/image.jpg" medium="image" type="image/jpeg"/>
+  <media:content url="https://xingyuii.github.io/my-quant-blog/posts/trading-1/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
   <title>Welcome To My Blog</title>
   <dc:creator>Sarah LI</dc:creator>
-  <link>https://your-website-url.example.com/posts/welcome/</link>
+  <link>https://xingyuii.github.io/my-quant-blog/posts/welcome/</link>
   <description><![CDATA[ 
 
 
@@ -2505,7 +2505,7 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
 
 
 <p>This is my first post. Welcome!</p>
-<p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p><img src="https://xingyuii.github.io/my-quant-blog/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>I will share my knowledge about investment banking, trading strategies, books inspired me, healthy lifestyle, and more.</p>
 <p>To live an exciting life, let`s keep learning and growing!</p>
 
@@ -2513,7 +2513,7 @@ Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
 
  ]]></description>
   <category>free-talk</category>
-  <guid>https://your-website-url.example.com/posts/welcome/</guid>
+  <guid>https://xingyuii.github.io/my-quant-blog/posts/welcome/</guid>
   <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
 </item>
 </channel>
