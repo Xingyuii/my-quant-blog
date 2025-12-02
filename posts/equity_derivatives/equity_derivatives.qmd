@@ -18,7 +18,7 @@ format:
     theme: cosmo
 jupyter: python3
 ---
-
+![](autocall.png)
 ```{python}
 #| include: false
 # 全局初始化代码（不显示在文章中）
@@ -390,7 +390,7 @@ ax.fill_between(s[s < K_down], 0, twin_win[s < K_down], color=C_BARRIER, alpha=0
 ax.set_title('5. Twin-Wins Structure (Long Strangle)', fontsize=14, fontweight='bold')
 ax.set_xlabel('Stock Price at Maturity', fontsize=12)
 ax.set_ylabel('Payoff', fontsize=12)
-ax.legend(loc='upper center', fontsize=9, ncol=3, bbox_to_anchor=(0.5, 1.15))
+ax.legend(loc='upper left', fontsize=9, ncol=3, bbox_to_anchor=(0.5, 1.15))
 ax.grid(True, alpha=0.3)
 ax.set_xlim(60, 140)
 ax.set_ylim(0, 35)
