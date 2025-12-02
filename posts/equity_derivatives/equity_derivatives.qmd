@@ -3,7 +3,7 @@ title: "Beyond Vanilla: Fun & Popular Exotic Equity Derivatives"
 subtitle: "不止香草期权：有趣流行的股票奇异衍生品"
 author: "Sarah LI"
 date: "2025-12-02"
-categories: [Structuring, Derivatives, Exotics, Market Insights]
+categories: [Derivatives, Equity Business, Investment Banking]
 image: "autocall.png"
 description: "An introduction to several popular equity derivatives, from basic swaps to complex autocallables, explaining their mechanics, market views, and pricing drivers."
 format:

@@ -3,7 +3,7 @@ title: "Deep Dive: Equities Prime Brokerage Business Model"
 subtitle: "深度解析：股票主经纪商业务模式"
 author: "Sarah LI"
 date: "2025-12-01"
-categories: [Equity Business, Prime Brokerage, Investment Banking]
+categories: [Prime Brokerage, Equity Business, Investment Banking]
 image: "PrimeBrokerage.png"
 description: "How Prime Brokerage solves critical funding, shorting, and market access challenges through Physical financing and Synthetic (Delta One) solutions."
 ---
