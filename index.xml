@@ -10,7 +10,2426 @@
 <atom:link href="https://your-website-url.example.com/index.xml" rel="self" type="application/rss+xml"/>
 <description>A blog built with Quarto</description>
 <generator>quarto-1.4.554</generator>
-<lastBuildDate>Sun, 16 Nov 2025 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Tue, 02 Dec 2025 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Deep Dive: Equities Prime Brokerage Business Model</title>
+  <dc:creator>Sarah </dc:creator>
+  <link>https://your-website-url.example.com/posts/equity_business/prime_brokerage.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="introduction-简介" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-简介">Introduction / 简介</h2>
+<p><strong>Equities Prime Brokerage (PB)</strong> acts as a one-stop “super butler” and “arsenal” for hedge funds and large institutional investors. While the fund’s core competency is its <strong>trading strategy</strong>, the PB’s core competency is solving all <strong>logistical</strong> and <strong>funding</strong> problems outside of that strategy.</p>
+<p><strong>股票主经纪商业务 (Prime Brokerage)</strong> 是为对冲基金和大型机构投资者提供的一站式“超级管家”和“军火库”。如果说基金的核心能力是<strong>交易策略</strong>，那么 PB 的核心能力就是解决除策略以外的所有<strong>后勤</strong>和<strong>资金</strong>问题。</p>
+</section>
+<section id="core-business-model-summary-核心业务模式汇总" class="level2">
+<h2 class="anchored" data-anchor-id="core-business-model-summary-核心业务模式汇总">Core Business Model Summary / 核心业务模式汇总</h2>
+<p><img src="https://your-website-url.example.com/posts/equity_business/PrimeBrokerage.png" class="img-fluid"></p>
+<p>The following table breaks down the Prime Brokerage business by its operational pillars, core products, the specific problems they solve for clients, and their key advantages.</p>
+<p>下表按业务支柱、核心产品、解决的具体痛点以及主要优势，对主经纪商业务进行了详细拆解。</p>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Business Area <br> 业务领域</th>
+<th style="text-align: left;">Core Product &amp; Key Mechanics <br> 核心产品与核心机制</th>
+<th style="text-align: left;">Problem Solved <br> 解决的痛点</th>
+<th style="text-align: left;">Advantages <br> 优势</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Physical Prime (Financing)</strong> <br> 实物主经纪商 (融资)</td>
+<td style="text-align: left;"><strong>Cash Margin Financing</strong> <br> 现金保证金融资 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> Clients pay <strong>Margin Interest</strong> (e.g., SOFR + Spread). The bank manages risk by setting <strong>Margin Requirements</strong>. <br> 客户支付<strong>融资利息</strong>（如 SOFR + 利差）。银行通过设定<strong>维持保证金</strong>比例来管理风险。</td>
+<td style="text-align: left;"><strong>Capital Constraint:</strong> <br> Clients want to amplify returns (leverage) but are limited by their own capital base. <br><br> <strong>资金痛点：</strong> <br> 客户希望放大收益（上杠杆），但受限于自有资金规模。</td>
+<td style="text-align: left;">• <strong>Maximize Efficiency:</strong> Maximizes capital efficiency via leverage. <br> • <strong>Larger Exposure:</strong> Allows clients to hold larger long positions than cash would permit. <br><br> • <strong>效率最大化：</strong> 通过杠杆最大化资金使用效率。<br> • <strong>扩大敞口：</strong> 允许客户持有比现金所能支持的更大的头寸。</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Physical Prime (Securities Lending)</strong> <br> 实物主经纪商 (证券借贷)</td>
+<td style="text-align: left;"><strong>SBL &amp; Repo</strong> <br> (Securities Borrowing &amp; Lending) <br> 证券借贷与回购协议 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> Clients pay a <strong>Borrow Fee</strong>. For “Hard-to-Borrow” stocks, this fee can be very high. Often structured as a <strong>Reverse Repo</strong>. <br> 客户支付<strong>借券费</strong>。对于“难借”的股票，费用极高。通常通过<strong>逆回购 (Reverse Repo)</strong> 的形式构建。</td>
+<td style="text-align: left;"><strong>Short Selling Restriction:</strong> <br> Clients want to short a stock (bet on price drop) but cannot sell what they do not own. <br><br> <strong>做空痛点：</strong> <br> 客户看跌某股票想做空，但不能卖出自己手里没有的东西。</td>
+<td style="text-align: left;">• <strong>Enable Shorting:</strong> Enables Long/Short strategies. <br> • <strong>Liquidity:</strong> Provides liquidity for “hard-to-borrow” assets. <br> • <strong>Yield:</strong> Generates extra yield for asset lenders. <br><br> • <strong>实现做空：</strong> 支持多空策略的执行。<br> • <strong>提供流动性：</strong> 为“难借”资产提供流动性。<br> • <strong>产生收益：</strong> 为借出资产的一方创造额外收益。</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Physical Prime (Operations)</strong> <br> 实物主经纪商 (运营)</td>
+<td style="text-align: left;"><strong>Clearing, Settlement &amp; Custody</strong> <br> 清算、结算与托管 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> <strong>Centralized Clearing.</strong> The PB consolidates trades from various executing brokers into one account. <br> <strong>集中清算。</strong> 主经纪商将来自不同执行券商的所有交易汇总到一个账户中。</td>
+<td style="text-align: left;"><strong>Operational Complexity:</strong> <br> Managing thousands of trades across multiple exchanges is costly and prone to settlement errors. <br><br> <strong>运营痛点：</strong> <br> 管理跨多个交易所的数千笔交易成本极高，且容易出现结算错误。</td>
+<td style="text-align: left;">• <strong>Centralization:</strong> Centralizes asset safekeeping. <br> • <strong>Efficiency:</strong> Reduces back-office administrative burden. <br> • <strong>Risk Mitigation:</strong> Mitigates counterparty and settlement risks. <br><br> • <strong>集中管理：</strong> 集中保管资产，确保安全。<br> • <strong>提升效率：</strong> 减轻后台行政负担。<br> • <strong>降低风险：</strong> 缓解对手方风险和结算风险。</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Synthetic Prime (Delta One)</strong> <br> 合成主经纪商 (Delta One)</td>
+<td style="text-align: left;"><strong>Equity Swaps / Total Return Swaps (TRS)</strong> <br> 股票互换 / 总回报互换 <br><br> <strong>Key Mechanics (核心机制):</strong> <br> The client receives the <strong>“Total Return”</strong> (Capital Gains + Dividends) and pays a <strong>“Financing Rate”</strong> to the bank. <br> 客户收取<strong>“总回报”</strong>（资本增值+股息），并向银行支付<strong>“融资利率”</strong>。</td>
+<td style="text-align: left;"><strong>Market Access &amp; Efficiency:</strong> <br> Direct ownership is difficult (e.g., restricted markets), tax-inefficient, or capital-intensive. <br><br> <strong>准入与效率痛点：</strong> <br> 直接持有实物股票可能面临市场准入限制、税务低效或资金占用过高的问题。</td>
+<td style="text-align: left;">• <strong>Market Access:</strong> Access restricted markets (e.g., China A-shares, emerging markets). <br> • <strong>High Leverage:</strong> Often requires lower margin than physical financing. <br> • <strong>Operational Ease:</strong> Avoids stamp duties and custody complexities. <br><br> • <strong>市场准入：</strong> 轻松进入受限市场（如中国A股、新兴市场）。<br> • <strong>高杠杆：</strong> 通常比实物融资这就需要更低的保证金。<br> • <strong>运营便捷：</strong> 规避印花税和复杂的托管流程。</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="key-roles-skills-in-prime-brokerage-核心岗位与技能" class="level2">
+<h2 class="anchored" data-anchor-id="key-roles-skills-in-prime-brokerage-核心岗位与技能">Key Roles &amp; Skills in Prime Brokerage / 核心岗位与技能</h2>
+<p>The Prime Brokerage ecosystem relies on a diverse set of professionals, from client-facing sales to technical builders. Below are the key roles and the critical skills required to succeed in each.</p>
+<p>主经纪商业务生态依赖于多种专业人才的协同工作，从面向客户的销售到技术构建者。以下是核心岗位及其所需的关键技能。</p>
+<section id="front-office-roles-前台岗位" class="level4">
+<h4 class="anchored" data-anchor-id="front-office-roles-前台岗位">1. Front Office Roles (前台岗位)</h4>
+<ul>
+<li><strong>Prime Brokerage Sales / Relationship Management (RM)</strong>
+<ul>
+<li><strong>Focus:</strong> Client acquisition, negotiation, and concierge service.</li>
+<li><strong>Skills:</strong> Negotiation, deep understanding of the hedge fund landscape, cross-selling capabilities (IPOs, Research).</li>
+<li><strong>销售/客户关系管理:</strong> 专注于客户获取、谈判及“管家式”服务。所需技能包括谈判能力、对对冲基金行业的深刻理解及交叉销售能力。</li>
+</ul></li>
+<li><strong>Securities Lending Trader (Stock Loan)</strong>
+<ul>
+<li><strong>Focus:</strong> Sourcing liquidity for hard-to-borrow stocks and managing inventory.</li>
+<li><strong>Skills:</strong> Repo/SBL market mechanics, understanding borrow costs/rates, inventory management.</li>
+<li><strong>证券借贷交易员:</strong> 专注于为“难借”股票寻找流动性并管理库存。所需技能包括理解回购/借贷市场机制、借贷成本及库存管理。</li>
+</ul></li>
+<li><strong>Delta One / Synthetic Trader</strong>
+<ul>
+<li><strong>Focus:</strong> Managing the risk of the Equity Swaps book (hedging Delta/Gamma).</li>
+<li><strong>Skills:</strong> Equity Swaps pricing, hedging strategies, understanding funding spreads (SOFR/Libor), and market microstructure.</li>
+<li><strong>Delta One / 合成交易员:</strong> 专注于管理股票互换账簿的风险。所需技能包括互换定价、对冲策略及对资金利差和市场微观结构的理解。</li>
+</ul></li>
+<li><strong>Structuring / Strategist :</strong>
+<ul>
+<li><strong>Focus:</strong> Designing financing solutions and building automated pricing/risk infrastructure.</li>
+<li><strong>Skills:</strong> <strong>Python/SQL/KDB+</strong> (automation), Financial Engineering (Greeks, RWA optimization), and translating client needs into technical solutions.</li>
+<li><strong>结构化 / 策略师 :</strong> 专注于设计融资方案及搭建自动定价/风控基础设施。所需技能包括 Python/SQL/KDB+（自动化）、金融工程（Greeks, RWA优化）及将客户需求转化为技术方案的能力。</li>
+</ul></li>
+</ul>
+</section>
+<section id="control-support-roles-控制与支持岗位" class="level4">
+<h4 class="anchored" data-anchor-id="control-support-roles-控制与支持岗位">2. Control &amp; Support Roles (控制与支持岗位)</h4>
+<ul>
+<li><strong>Prime Risk Management</strong>
+<ul>
+<li><strong>Focus:</strong> Monitoring leverage and portfolio concentration to prevent client defaults.</li>
+<li><strong>Skills:</strong> Quantitative risk modeling (VaR, Stress Testing), credit risk assessment.</li>
+<li><strong>主经纪商风控:</strong> 监控杠杆和持仓集中度以防止违约。需要量化风险建模（VaR, 压力测试）及信用风险评估技能。</li>
+</ul></li>
+<li><strong>Operations / Client Service</strong>
+<ul>
+<li><strong>Focus:</strong> Trade settlement, asset custody, and corporate actions processing.</li>
+<li><strong>Skills:</strong> Trade lifecycle management (DTCC/Euroclear), operational process optimization.</li>
+<li><strong>运营 / 客服:</strong> 专注于交易结算、资产托管及公司行动处理。需要熟悉交易生命周期管理及流程优化。</li>
+</ul></li>
+<li><strong>Technology / Data Engineering</strong>
+<ul>
+<li><strong>Focus:</strong> Building low-latency trading platforms and data lakes.</li>
+<li><strong>Skills:</strong> Software engineering (C++, Java), Cloud infrastructure (AWS), large-scale database management.</li>
+<li><strong>技术 / 数据工程:</strong> 专注于构建低延迟交易平台及数据湖。需要软件工程及云基础设施技能。</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="conclusion-总结" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion-总结">Conclusion / 总结</h2>
+<p>Prime Brokerage is the infrastructure that powers the hedge fund industry.</p>
+<ul>
+<li><strong>Physical Prime</strong> solves the fundamental needs of borrowing money (<strong>Margin</strong>) and borrowing shares (<strong>Stock Loan</strong>).</li>
+<li><strong>Synthetic Prime</strong> solves the advanced needs of <strong>capital efficiency</strong> and <strong>global access</strong> through derivatives.</li>
+</ul>
+<p>For a Structuring Analyst, the opportunity lies in <strong>automating</strong> these high-volume workflows (e.g., automated swap pricing, real-time risk monitoring) to improve the desk’s scalability and response time.</p>
+<p>主经纪商业务是驱动对冲基金行业的“基础设施”。</p>
+<ul>
+<li><strong>实物业务 (Physical)</strong> 解决了“借钱” (<strong>融资</strong>) 和“借票” (<strong>借券</strong>) 的基本需求。</li>
+<li><strong>合成业务 (Synthetic)</strong> 通过衍生品解决了<strong>资金效率</strong>和<strong>全球市场准入</strong>的高级需求。</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Equity Business</category>
+  <category>Prime Brokerage</category>
+  <category>Investment Banking</category>
+  <category>Career</category>
+  <guid>https://your-website-url.example.com/posts/equity_business/prime_brokerage.html</guid>
+  <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/equity_business/PrimeBrokerage.png" medium="image" type="image/png" height="107" width="144"/>
+</item>
+<item>
+  <title>Beyond Vanilla: A Guide to Exotic Equity Derivatives</title>
+  <dc:creator>Sarah </dc:creator>
+  <link>https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="executive-summary-核心摘要" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="executive-summary-核心摘要"><span class="header-section-number">1</span> Executive Summary / 核心摘要</h2>
+<p>This guide deconstructs the key equity derivatives found in the Asian and global markets, ordered from foundational building blocks to complex structured products.</p>
+<p>We focus on the commercial logic: <strong>Market View</strong>, <strong>Payoff Mechanics</strong>, and <strong>Pricing Drivers</strong>.</p>
+<p>本文解构了亚洲及全球市场中的核心股票衍生品，按从基础积木到复杂结构化产品的逻辑排序。我们将重点剖析其商业逻辑：<strong>市场观点</strong>、<strong>支付机制</strong>以及<strong>定价驱动因素</strong>。</p>
+<hr>
+</section>
+<section id="equity-swaps-delta-one-股票互换" class="level2 page-columns page-full" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="equity-swaps-delta-one-股票互换"><span class="header-section-number">2</span> 1. Equity Swaps (Delta One) / 股票互换</h2>
+<p><strong>The “Synthetic Access” Tool.</strong> The foundation of Prime Brokerage. <strong>“合成准入”工具。</strong> 主经纪商业务的基石。</p>
+<ul>
+<li><strong>What is it (是什么):</strong>
+<ul>
+<li>A contract to exchange the <strong>Total Return</strong> of a stock (Dividends + Capital Gains) for a <strong>Financing Rate</strong> (e.g., SOFR + Spread).</li>
+<li>一种交换股票<strong>总回报</strong>（股息+资本增值）与<strong>融资利率</strong>（如 SOFR + 利差）的合约。</li>
+</ul></li>
+<li><strong>Market View (市场观点):</strong>
+<ul>
+<li><strong>Directional (Long/Short).</strong> You want exposure to a stock without owning it (e.g., to access restricted markets like China A-shares or avoid stamp duty).</li>
+<li><strong>方向性交易（做多/做空）。</strong> 希望在不持有实物股票的情况下获得敞口（例如进入中国A股等受限市场或规避印花税）。</li>
+</ul></li>
+<li><strong>Pricing Formula (定价公式):</strong>
+<ul>
+<li>The value of an Equity Swap to the payer of the equity return is:</li>
+<li><img src="https://latex.codecogs.com/png.latex?V_%7Bswap%7D%20=%20N%20%5Ctimes%20(S_t%20-%20S_0)%20-%20N%20%5Ctimes%20%5Csum_%7Bi=1%7D%5E%7Bn%7D%20(r_i%20+%20s)%20%5Ctimes%20%5CDelta%20t_i"></li>
+<li>Where <img src="https://latex.codecogs.com/png.latex?S_t"> is current price, <img src="https://latex.codecogs.com/png.latex?S_0"> is initial price, <img src="https://latex.codecogs.com/png.latex?r"> is the benchmark rate (e.g.&nbsp;SOFR), and <img src="https://latex.codecogs.com/png.latex?s"> is the spread.</li>
+</ul></li>
+<li><strong>Pricing Driver (定价因子):</strong>
+<ul>
+<li><strong>Financing Spread &amp; Borrow Cost.</strong> The price is essentially the cost of funding.</li>
+<li><strong>融资利差与借券成本。</strong> 价格本质上是资金成本。</li>
+</ul></li>
+</ul>
+<div id="cell-fig-swap" class="cell page-columns page-full" data-execution_count="2">
+<details class="code-fold">
+<summary>显示/隐藏代码 show/hide code</summary>
+<div class="sourceCode cell-code" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 生成数据</span></span>
+<span id="cb1-2">s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">80</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">120</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">200</span>)</span>
+<span id="cb1-3">s0 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span> </span>
+<span id="cb1-4">payoff <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> s0</span>
+<span id="cb1-5">financing_cost <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.02</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> (s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> s0)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 假设2%的融资成本</span></span>
+<span id="cb1-6">price_today <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> payoff <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> financing_cost</span>
+<span id="cb1-7"></span>
+<span id="cb1-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建图表</span></span>
+<span id="cb1-9">fig, ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots()</span>
+<span id="cb1-10">ax.plot(s, payoff, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Payoff at Maturity'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PAYOFF, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'-'</span>)</span>
+<span id="cb1-11">ax.plot(s, price_today, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Price Today (Financing Cost Included)'</span>, </span>
+<span id="cb1-12">         color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PRICE, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>)</span>
+<span id="cb1-13">ax.axhline(y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'black'</span>, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.8</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.7</span>)</span>
+<span id="cb1-14">ax.axvline(x<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>s0, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'black'</span>, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.8</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>, </span>
+<span id="cb1-15">           label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Initial Price = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>s0<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb1-16">ax.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'1. Equity Swap (Delta One)'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>)</span>
+<span id="cb1-17">ax.set_xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Stock Price at Maturity'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb1-18">ax.set_ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Payoff'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb1-19">ax.legend(loc<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'best'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>)</span>
+<span id="cb1-20">ax.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>)</span>
+<span id="cb1-21">ax.set_xlim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">80</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">120</span>)</span>
+<span id="cb1-22">plt.tight_layout()</span>
+<span id="cb1-23">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-swap" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-swap-output-1.png" width="987" height="587" class="figure-img column-page">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-swap-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Equity Swap (Delta One) - Linear Payoff
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>如 Figure&nbsp;1 所示，股票互换的收益是线性的，反映了标的资产价格的直接敞口。融资成本的存在使今日价格曲线略低于到期收益曲线。<br> As shown in Figure&nbsp;1, equity swaps provide linear payoff, reflecting direct exposure to the underlying asset price. The financing cost causes the price today curve to be slightly lower than the payoff at maturity curve.</p>
+<hr>
+</section>
+<section id="asian-options-亚式期权" class="level2 page-columns page-full" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="asian-options-亚式期权"><span class="header-section-number">3</span> 2. Asian Options / 亚式期权</h2>
+<p><strong>The “Cheaper” Option.</strong> Popular for hedging corporate expenses or reducing volatility. <strong>“更便宜”的期权。</strong> 常用于企业对冲或降低波动率风险。</p>
+<ul>
+<li><strong>What is it (是什么):</strong>
+<ul>
+<li>An option where the payoff depends on the <strong>Average Price</strong> of the underlying over time, rather than the final price.</li>
+<li>支付取决于标的资产在一段时间内的<strong>平均价格</strong>，而非最终价格。</li>
+</ul></li>
+<li><strong>Market View (市场观点):</strong>
+<ul>
+<li><strong>Bullish/Bearish but Cost-Sensitive.</strong> You want protection or upside but want to pay less premium than a standard Vanilla option.</li>
+<li><strong>看涨/看跌但对成本敏感。</strong> 希望获得保护或收益，但希望支付比普通香草期权更低的权利金。</li>
+</ul></li>
+<li><strong>Pricing Formula (定价公式 - Geometric Average Call):</strong>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?Payoff%20=%20%5Cmax(0,%20A_T%20-%20K)"></li>
+<li>Where <img src="https://latex.codecogs.com/png.latex?A_T"> is the average price: <img src="https://latex.codecogs.com/png.latex?A_T%20=%20%5Cfrac%7B1%7D%7Bn%7D%20%5Csum_%7Bi=1%7D%5E%7Bn%7D%20S_%7Bt_i%7D"></li>
+</ul></li>
+<li><strong>Pricing Driver (定价因子):</strong>
+<ul>
+<li><strong>Volatility.</strong> Averaging reduces volatility, making Asian options <strong>cheaper</strong> than standard European options.</li>
+<li><strong>波动率。</strong> 平均化处理降低了波动率，因此亚式期权比标准欧式期权更便宜。</li>
+</ul></li>
+</ul>
+<div id="cell-fig-asian" class="cell page-columns page-full" data-execution_count="3">
+<details class="code-fold">
+<summary>显示/隐藏代码 show/hide code</summary>
+<div class="sourceCode cell-code" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 生成数据</span></span>
+<span id="cb2-2">s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">70</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">130</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">200</span>)</span>
+<span id="cb2-3">K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span></span>
+<span id="cb2-4"></span>
+<span id="cb2-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 模拟价格路径</span></span>
+<span id="cb2-6">vanilla_call <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.maximum(s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> K, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb2-7"></span>
+<span id="cb2-8"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 模拟亚式期权（平均价格降低了波动性）</span></span>
+<span id="cb2-9">asian_call <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.zeros_like(s)</span>
+<span id="cb2-10"><span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">for</span> i <span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">in</span> <span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">range</span>(<span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">len</span>(s)):</span>
+<span id="cb2-11">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">if</span> s[i] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> K:</span>
+<span id="cb2-12">        asian_call[i] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb2-13">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">else</span>:</span>
+<span id="cb2-14">        <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 假设平均价格比最终价格低5%，代表波动性降低</span></span>
+<span id="cb2-15">        avg_price <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.95</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> s[i] <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">if</span> s[i] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> K <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">else</span> s[i]</span>
+<span id="cb2-16">        asian_call[i] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.maximum(avg_price <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> K, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb2-17"></span>
+<span id="cb2-18"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建图表</span></span>
+<span id="cb2-19">fig, ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots()</span>
+<span id="cb2-20">ax.plot(s, vanilla_call, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Vanilla Call Option'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PAYOFF, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'-'</span>, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>)</span>
+<span id="cb2-21">ax.plot(s, asian_call, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Asian Call Option (Averaged)'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PRICE, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>)</span>
+<span id="cb2-22"></span>
+<span id="cb2-23">add_strike(ax, K, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Strike K = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>K<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb2-24">add_shaded_zone(ax, [K, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">130</span>], C_PAYOFF, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Vanilla ITM Zone'</span>)</span>
+<span id="cb2-25"></span>
+<span id="cb2-26">ax.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'2. Asian Option vs Vanilla Call'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>)</span>
+<span id="cb2-27">ax.set_xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Stock Price at Maturity'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb2-28">ax.set_ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Option Value'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb2-29">ax.legend(loc<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'best'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>)</span>
+<span id="cb2-30">ax.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>)</span>
+<span id="cb2-31">ax.set_xlim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">70</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">130</span>)</span>
+<span id="cb2-32">ax.set_ylim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">35</span>)</span>
+<span id="cb2-33">plt.tight_layout()</span>
+<span id="cb2-34">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-asian" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-asian-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-asian-output-1.png" width="987" height="587" class="figure-img column-page">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-asian-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Asian Option vs Vanilla Call
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>如 Figure&nbsp;2 可以看出，亚式期权的价值曲线更平缓，价格更低。这是因为平均化过程降低了波动率风险。<br> As illustrated in Figure&nbsp;2, the Asian option value curve is flatter and lower priced due to the averaging process reducing volatility risk.</p>
+<hr>
+</section>
+<section id="barrier-options-障碍期权" class="level2 page-columns page-full" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="barrier-options-障碍期权"><span class="header-section-number">4</span> 3. Barrier Options / 障碍期权</h2>
+<p><strong>The “Conditional” Option.</strong> The key building block for Autocalls. <strong>“有条件”的期权。</strong> 构建 Autocall 产品的核心积木。</p>
+<ul>
+<li><strong>What is it (是什么):</strong>
+<ul>
+<li>Options that get <strong>activated (Knock-in)</strong> or <strong>extinguished (Knock-out)</strong> if the price hits a certain barrier level.</li>
+<li>当价格触及特定障碍水平时，会被<strong>激活（敲入）</strong>或<strong>失效（敲出）</strong>的期权。</li>
+</ul></li>
+<li><strong>Types (类型):</strong>
+<ul>
+<li><strong>Down-and-In Put (DIP):</strong> The “danger” component in structured notes. Active only if the market crashes.</li>
+<li><strong>Up-and-Out Call:</strong> A cheaper call option that disappears if the market rallies too much.</li>
+</ul></li>
+<li><strong>Pricing Formula (Down-and-In Put Payoff):</strong>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?Payoff%20=%20%5Cmax(0,%20K%20-%20S_T)%20%5Ctimes%20%5Cmathbb%7B1%7D_%7B%5C%7B%5Cmin(S_t)%20%3C%20B%5C%7D%7D"></li>
+<li>Only pays if the minimum price path <img src="https://latex.codecogs.com/png.latex?%5Cmin(S_t)"> touched the Barrier <img src="https://latex.codecogs.com/png.latex?B">.</li>
+</ul></li>
+<li><strong>Pricing Driver (定价因子):</strong>
+<ul>
+<li><strong>Skew (偏斜).</strong> The probability of hitting a barrier is highly sensitive to the volatility skew (e.g., OTM puts are expensive).</li>
+<li><strong>偏斜。</strong> 触及障碍的概率对波动率偏斜高度敏感（例如价外看跌期权通常很贵）。</li>
+</ul></li>
+</ul>
+<div id="cell-fig-barrier" class="cell page-columns page-full" data-execution_count="4">
+<details class="code-fold">
+<summary>显示/隐藏代码 show/hide code</summary>
+<div class="sourceCode cell-code" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 生成数据</span></span>
+<span id="cb3-2">s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">300</span>)</span>
+<span id="cb3-3">K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span></span>
+<span id="cb3-4">B_knockin <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">85</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 敲入障碍</span></span>
+<span id="cb3-5">B_knockout <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">115</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 敲出障碍</span></span>
+<span id="cb3-6"></span>
+<span id="cb3-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Down-and-In Put</span></span>
+<span id="cb3-8">dip_payoff <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.zeros_like(s)</span>
+<span id="cb3-9">dip_payoff[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> B_knockin] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.maximum(K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> s[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> B_knockin], <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb3-10"></span>
+<span id="cb3-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Up-and-Out Call</span></span>
+<span id="cb3-12">uoc_payoff <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.maximum(s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> K, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb3-13">uoc_payoff[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> B_knockout] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span>
+<span id="cb3-14"></span>
+<span id="cb3-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建子图</span></span>
+<span id="cb3-16">fig, (ax3a, ax3b) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>, figsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">6</span>))</span>
+<span id="cb3-17"></span>
+<span id="cb3-18"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 左图：Down-and-In Put</span></span>
+<span id="cb3-19">ax3a.plot(s, dip_payoff, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'DIP Payoff'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PAYOFF, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>)</span>
+<span id="cb3-20">add_barrier(ax3a, B_knockin, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Knock-In Barrier = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>B_knockin<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>, C_BARRIER, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>)</span>
+<span id="cb3-21">add_strike(ax3a, K, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Strike K = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>K<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb3-22">ax3a.fill_between(s[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> K], <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, dip_payoff[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> K], color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PAYOFF, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Active Zone'</span>)</span>
+<span id="cb3-23">ax3a.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Down-and-In Put (DIP)'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>)</span>
+<span id="cb3-24">ax3a.set_xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Stock Price at Maturity'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span>)</span>
+<span id="cb3-25">ax3a.set_ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Payoff'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span>)</span>
+<span id="cb3-26">ax3a.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>)</span>
+<span id="cb3-27">ax3a.legend(loc<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'upper right'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>)</span>
+<span id="cb3-28">ax3a.set_xlim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>)</span>
+<span id="cb3-29">ax3a.set_ylim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">45</span>)</span>
+<span id="cb3-30"></span>
+<span id="cb3-31"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 右图：Up-and-Out Call</span></span>
+<span id="cb3-32">ax3b.plot(s, uoc_payoff, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'UOC Payoff'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PRICE, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>)</span>
+<span id="cb3-33">add_barrier(ax3b, B_knockout, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Knock-Out Barrier = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>B_knockout<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>, C_BARRIER, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>)</span>
+<span id="cb3-34">add_strike(ax3b, K, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Strike K = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>K<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb3-35">ax3b.fill_between(s[(s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> K) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> (s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> B_knockout)], <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, </span>
+<span id="cb3-36">                  uoc_payoff[(s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> K) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> (s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;=</span> B_knockout)], </span>
+<span id="cb3-37">                  color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PRICE, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Active Zone'</span>)</span>
+<span id="cb3-38">ax3b.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Up-and-Out Call (UOC)'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>)</span>
+<span id="cb3-39">ax3b.set_xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Stock Price at Maturity'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span>)</span>
+<span id="cb3-40">ax3b.set_ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Payoff'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">11</span>)</span>
+<span id="cb3-41">ax3b.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>)</span>
+<span id="cb3-42">ax3b.legend(loc<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'upper left'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>)</span>
+<span id="cb3-43">ax3b.set_xlim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>)</span>
+<span id="cb3-44">ax3b.set_ylim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">25</span>)</span>
+<span id="cb3-45"></span>
+<span id="cb3-46">plt.suptitle(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'3. Barrier Options: Conditional Payoffs'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>, y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.02</span>)</span>
+<span id="cb3-47">plt.tight_layout()</span>
+<span id="cb3-48">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-barrier" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-barrier-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-barrier-output-1.png" width="1387" height="615" class="figure-img column-page">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-barrier-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Barrier Options - Conditional Payoffs
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure&nbsp;3 展示了两种常见的障碍期权。<strong>Down-and-In Put</strong> 只在股价跌破障碍价后才被激活，而 <strong>Up-and-Out Call</strong> 则在股价涨破障碍价后失效。<br> As shown in Figure&nbsp;3, the Down-and-In Put is activated only if the stock price falls below the barrier, while the Up-and-Out Call becomes worthless if the stock price rises above its barrier.</p>
+<hr>
+</section>
+<section id="reverse-convertibles-反向可转换票据" class="level2 page-columns page-full" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="reverse-convertibles-反向可转换票据"><span class="header-section-number">5</span> 4. Reverse Convertibles / 反向可转换票据</h2>
+<p><strong>The “High Yield” Note.</strong> Selling insurance to earn income. <strong>“高收益”票据。</strong> 通过卖出保险来赚取收益。</p>
+<ul>
+<li><strong>What is it (是什么):</strong>
+<ul>
+<li>A short-term note that pays a <strong>high coupon</strong>. In exchange, the investor <strong>sells a Put option</strong> (usually a DIP).</li>
+<li>一种支付<strong>高票息</strong>的短期票据。作为交换，投资者<strong>卖出一个看跌期权</strong>（通常是下行敲入看跌期权）。</li>
+</ul></li>
+<li><strong>Market View (市场观点):</strong>
+<ul>
+<li><strong>Neutral to Bullish.</strong> You want high income and don’t think the market will crash.</li>
+<li><strong>中性偏多。</strong> 追求高收益，且认为市场不会崩盘。</li>
+</ul></li>
+<li><strong>Pricing Formula (Note Value):</strong>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?V_%7Bnote%7D%20=%20V_%7Bbond%7D%20-%20V_%7Bput%7D%20+%20Coupon"></li>
+<li>The investor is <strong>Short Put</strong>, so the value of the Put reduces the note’s upfront cost, funding the high coupon.</li>
+</ul></li>
+<li><strong>Risk (风险):</strong>
+<ul>
+<li>If the stock crashes below the barrier, you receive the <strong>physical stock</strong> (which has lost value) instead of your principal. “Converted” from cash to stock.</li>
+<li>如果股价跌破障碍，你将收到<strong>实物股票</strong>（已贬值）而非本金。本金从现金”转换”为了股票。</li>
+</ul></li>
+</ul>
+<div id="cell-fig-reverse" class="cell page-columns page-full" data-execution_count="5">
+<details class="code-fold">
+<summary>显示/隐藏代码 show/hide code</summary>
+<div class="sourceCode cell-code" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 生成数据</span></span>
+<span id="cb4-2">s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">50</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">150</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">300</span>)</span>
+<span id="cb4-3">K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span></span>
+<span id="cb4-4">B <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">80</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 敲入障碍</span></span>
+<span id="cb4-5">coupon <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">8</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 高票息</span></span>
+<span id="cb4-6"></span>
+<span id="cb4-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 票据价值 = 债券价值 + 票息 - 看跌期权价值</span></span>
+<span id="cb4-8">bond_value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 本金</span></span>
+<span id="cb4-9">short_put <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>np.maximum(K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> s, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 卖出看跌期权</span></span>
+<span id="cb4-10">short_dip <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span>np.maximum(K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> s, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> (s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> B)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 卖出DIP</span></span>
+<span id="cb4-11">note_value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> bond_value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> coupon <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> short_dip  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 使用DIP作为更现实的假设</span></span>
+<span id="cb4-12"></span>
+<span id="cb4-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建图表</span></span>
+<span id="cb4-14">fig, ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots()</span>
+<span id="cb4-15">ax.plot(s, note_value, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Reverse Convertible Note Value'</span>, </span>
+<span id="cb4-16">         color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PAYOFF, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>)</span>
+<span id="cb4-17">ax.plot(s, bond_value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> coupon <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> np.ones_like(s), </span>
+<span id="cb4-18">         label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Bond + Coupon Value'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_STRIKE, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">':'</span>, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb4-19">ax.plot(s, bond_value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> short_dip, </span>
+<span id="cb4-20">         label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Short DIP Impact'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_BARRIER, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.7</span>)</span>
+<span id="cb4-21"></span>
+<span id="cb4-22">add_barrier(ax, B, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Knock-In Barrier = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>B<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb4-23">add_strike(ax, K, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Strike/Principal = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>K<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb4-24"></span>
+<span id="cb4-25"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 标记关键区域</span></span>
+<span id="cb4-26">ax.fill_between(s[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> B], note_value[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> B], bond_value <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> coupon, </span>
+<span id="cb4-27">                 color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_BARRIER, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.2</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Conversion Risk Zone'</span>)</span>
+<span id="cb4-28">ax.axhline(y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>bond_value, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_NEUTRAL, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>, </span>
+<span id="cb4-29">           label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Principal Amount'</span>)</span>
+<span id="cb4-30"></span>
+<span id="cb4-31">ax.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'4. Reverse Convertible Note'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>)</span>
+<span id="cb4-32">ax.set_xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Stock Price at Maturity'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb4-33">ax.set_ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Total Value'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb4-34">ax.legend(loc<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'upper left'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>, ncol<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb4-35">ax.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>)</span>
+<span id="cb4-36">ax.set_xlim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">50</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">150</span>)</span>
+<span id="cb4-37">ax.set_ylim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">70</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">120</span>)</span>
+<span id="cb4-38">plt.tight_layout()</span>
+<span id="cb4-39">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-reverse" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-reverse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-reverse-output-1.png" width="987" height="587" class="figure-img column-page">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-reverse-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;4: Reverse Convertible Note Payoff
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>如 Figure&nbsp;4 所示，反向可转换票据在正常市况下提供高票息，但在股价跌破障碍价时面临本金转换风险。投资者实质上是卖出保险（看跌期权）来获取额外收益。<br> As illustrated in Figure&nbsp;4, the Reverse Convertible Note offers high coupon payments under normal market conditions but faces conversion risk if the stock price falls below the barrier. Investors are effectively selling insurance (put option) to earn extra income.</p>
+<hr>
+</section>
+<section id="twin-wins-双赢结构" class="level2 page-columns page-full" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="twin-wins-双赢结构"><span class="header-section-number">6</span> 5. Twin-Wins / 双赢结构</h2>
+<p><strong>The “Volatility” Play.</strong> Betting on a big move in <em>either</em> direction. <strong>“波动率”玩法。</strong> 押注市场向<em>任一</em>方向大幅波动。</p>
+<ul>
+<li><strong>What is it (是什么):</strong>
+<ul>
+<li>A product that generates positive returns if the market goes <strong>UP</strong> (above a strike) OR <strong>DOWN</strong> (below a barrier).</li>
+<li>无论市场<strong>大涨</strong>（超过行权价）还是<strong>大跌</strong>（跌破障碍价），都能产生正收益的产品。</li>
+</ul></li>
+<li><strong>Market View (市场观点):</strong>
+<ul>
+<li><strong>Long Volatility / Breakout.</strong> You expect a big move but don’t know the direction.</li>
+<li><strong>做多波动率/突破。</strong> 预期会有大行情，但不确定方向。</li>
+</ul></li>
+<li><strong>Pricing Formula (Payoff Structure):</strong>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?Payoff%20=%20%5Cmax(0,%20S_T%20-%20K_%7Bup%7D)%20+%20%5Cmax(0,%20K_%7Bdown%7D%20-%20S_T)"></li>
+<li>Essentially a <strong>Strangle</strong> strategy.</li>
+</ul></li>
+<li><strong>The “Death Zone” (死亡区间):</strong>
+<ul>
+<li>If the market stays flat (between the barriers), you earn nothing (or lose principal).</li>
+<li>如果市场横盘（处于两个障碍之间），则无收益（或损失本金）。</li>
+</ul></li>
+</ul>
+<div id="cell-fig-twinwin" class="cell page-columns page-full" data-execution_count="6">
+<details class="code-fold">
+<summary>显示/隐藏代码 show/hide code</summary>
+<div class="sourceCode cell-code" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 生成数据</span></span>
+<span id="cb5-2">s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">300</span>)</span>
+<span id="cb5-3">K_up <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">115</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 上行行权价</span></span>
+<span id="cb5-4">K_down <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">85</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 下行障碍价</span></span>
+<span id="cb5-5"></span>
+<span id="cb5-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># Strangle策略：买入看涨 + 买入看跌</span></span>
+<span id="cb5-7">call_payoff <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.maximum(s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> K_up, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb5-8">put_payoff <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.maximum(K_down <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> s, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>)</span>
+<span id="cb5-9">twin_win <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> call_payoff <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> put_payoff</span>
+<span id="cb5-10"></span>
+<span id="cb5-11"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建图表</span></span>
+<span id="cb5-12">fig, ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots()</span>
+<span id="cb5-13">ax.plot(s, twin_win, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Twin-Win Payoff'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PAYOFF, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>)</span>
+<span id="cb5-14">ax.plot(s, call_payoff, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Call Component (K=$115$)'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_STRIKE, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.7</span>)</span>
+<span id="cb5-15">ax.plot(s, put_payoff, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Put Component (K=$85$)'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_BARRIER, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.7</span>)</span>
+<span id="cb5-16"></span>
+<span id="cb5-17">add_barrier(ax, K_up, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Upper Strike = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>K_up<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>, C_STRIKE)</span>
+<span id="cb5-18">add_barrier(ax, K_down, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Lower Barrier = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>K_down<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>, C_BARRIER)</span>
+<span id="cb5-19"></span>
+<span id="cb5-20"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 标记"死亡区间"</span></span>
+<span id="cb5-21">add_shaded_zone(ax, [K_down, K_up], C_ZONE, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.2</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Death Zone (Flat Market)'</span>)</span>
+<span id="cb5-22"></span>
+<span id="cb5-23"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 标记盈利区域</span></span>
+<span id="cb5-24">ax.fill_between(s[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> K_up], <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, twin_win[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> K_up], color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_STRIKE, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.15</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Upside Profit'</span>)</span>
+<span id="cb5-25">ax.fill_between(s[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> K_down], <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, twin_win[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> K_down], color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_BARRIER, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.15</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Downside Profit'</span>)</span>
+<span id="cb5-26"></span>
+<span id="cb5-27">ax.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'5. Twin-Wins Structure (Long Strangle)'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>)</span>
+<span id="cb5-28">ax.set_xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Stock Price at Maturity'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb5-29">ax.set_ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Payoff'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb5-30">ax.legend(loc<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'upper center'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>, ncol<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">3</span>, bbox_to_anchor<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>(<span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1.15</span>))</span>
+<span id="cb5-31">ax.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>)</span>
+<span id="cb5-32">ax.set_xlim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>)</span>
+<span id="cb5-33">ax.set_ylim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">35</span>)</span>
+<span id="cb5-34">plt.tight_layout()</span>
+<span id="cb5-35">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-twinwin" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-twinwin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-twinwin-output-1.png" width="987" height="587" class="figure-img column-page">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-twinwin-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5: Twin-Wins Structure (Long Strangle)
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure&nbsp;5 清晰地展示了双赢结构的收益特征：在上下两个方向都有盈利潜力，但中间的”死亡区间”使得横盘行情下没有收益。这是典型的波动率策略。<br> As shown in Figure&nbsp;5, the Twin-Wins structure clearly illustrates its payoff characteristics: profit potential exists in both upward and downward directions, while the central “Death Zone” results in no payoff during flat market conditions. This is a classic volatility strategy.</p>
+<hr>
+</section>
+<section id="autocallable-notes-phoenix-凤凰自动赎回票据" class="level2 page-columns page-full" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="autocallable-notes-phoenix-凤凰自动赎回票据"><span class="header-section-number">7</span> 6. Autocallable Notes (Phoenix) / 凤凰自动赎回票据</h2>
+<p><strong>The “Market Standard.”</strong> Combining all the blocks above. <strong>“市场标配”。</strong> 上述所有积木的集大成者。</p>
+<ul>
+<li><strong>What is it (是什么):</strong>
+<ul>
+<li>A product that <strong>terminates early</strong> (Autocalls) with a high coupon if the market is flat/up.</li>
+<li>如果市场横盘或上涨，产品会<strong>提前终止</strong>（自动赎回）并支付高额票息。</li>
+</ul></li>
+<li><strong>Market View (市场观点):</strong>
+<ul>
+<li><strong>Moderately Bullish.</strong> You want yield in a flat market.</li>
+<li><strong>温和看涨。</strong> 希望在震荡市中获得收益。</li>
+</ul></li>
+<li><strong>Pricing Formula (Coupon Payoff):</strong>
+<ul>
+<li><img src="https://latex.codecogs.com/png.latex?Payoff_i%20=%20Coupon%20%5Ctimes%20%5Cmathbb%7B1%7D_%7B%5C%7BS_%7Bt_i%7D%20%5Cge%20B_%7Bautocall%7D%5C%7D%7D"></li>
+<li>Paid if Spot <img src="https://latex.codecogs.com/png.latex?S_t"> is above Autocall Barrier <img src="https://latex.codecogs.com/png.latex?B">.</li>
+</ul></li>
+<li><strong>Pricing Driver (定价因子):</strong>
+<ul>
+<li><strong>Correlation (Worst-of).</strong> Often linked to the worst-performing stock in a basket. Lower correlation = Higher Risk = Higher Coupon.</li>
+<li><strong>相关性（最差表现）。</strong> 通常挂钩篮子中表现最差的股票。相关性越低 = 风险越高 = 票息越高。</li>
+</ul></li>
+</ul>
+<div id="cell-fig-autocall" class="cell page-columns page-full" data-execution_count="7">
+<details class="code-fold">
+<summary>显示/隐藏代码 show/hide code</summary>
+<div class="sourceCode cell-code" id="cb6" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 生成数据</span></span>
+<span id="cb6-2">s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">300</span>)</span>
+<span id="cb6-3">autocall_barrier <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">105</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 自动赎回障碍</span></span>
+<span id="cb6-4">knockin_barrier <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">75</span>    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 敲入障碍</span></span>
+<span id="cb6-5">K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>                 <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 行权价/本金</span></span>
+<span id="cb6-6">final_coupon <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>       <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 最终票息（如果未提前赎回）</span></span>
+<span id="cb6-7">principal <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>         <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 本金</span></span>
+<span id="cb6-8"></span>
+<span id="cb6-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 简化收益计算</span></span>
+<span id="cb6-10">payoff <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.zeros_like(s)</span>
+<span id="cb6-11"></span>
+<span id="cb6-12"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 三个区域：</span></span>
+<span id="cb6-13"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 1. 自动赎回区域 (s &gt;= autocall_barrier)：获得高票息</span></span>
+<span id="cb6-14">payoff[s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> autocall_barrier] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> principal <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> final_coupon</span>
+<span id="cb6-15"></span>
+<span id="cb6-16"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 2. 正常到期区域 (knockin_barrier &lt;= s &lt; autocall_barrier)：获得票息，返还本金</span></span>
+<span id="cb6-17">payoff[(s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> knockin_barrier) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> (s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> autocall_barrier)] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> principal <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> final_coupon <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.7</span></span>
+<span id="cb6-18"></span>
+<span id="cb6-19"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 3. 敲入亏损区域 (s &lt; knockin_barrier)：损失部分本金</span></span>
+<span id="cb6-20">mask <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> knockin_barrier</span>
+<span id="cb6-21">payoff[mask] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> principal <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> (s[mask] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> K)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 按比例损失</span></span>
+<span id="cb6-22"></span>
+<span id="cb6-23"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建图表</span></span>
+<span id="cb6-24">fig, ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots()</span>
+<span id="cb6-25">ax.plot(s, payoff, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Investor Total Return'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PAYOFF, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>)</span>
+<span id="cb6-26"></span>
+<span id="cb6-27"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 添加各种线</span></span>
+<span id="cb6-28">add_barrier(ax, autocall_barrier, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Autocall Barrier = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>autocall_barrier<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>, C_STRIKE)</span>
+<span id="cb6-29">add_barrier(ax, knockin_barrier, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Knock-In Barrier = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>knockin_barrier<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>, C_BARRIER)</span>
+<span id="cb6-30">add_strike(ax, K, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Principal = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>K<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb6-31"></span>
+<span id="cb6-32"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 标记关键区域</span></span>
+<span id="cb6-33">add_shaded_zone(ax, [autocall_barrier, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>], C_STRIKE, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.15</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Autocall Zone (Early Termination)'</span>)</span>
+<span id="cb6-34">add_shaded_zone(ax, [knockin_barrier, autocall_barrier], C_PAYOFF, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Normal Zone (Full Coupon)'</span>)</span>
+<span id="cb6-35">add_shaded_zone(ax, [<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, knockin_barrier], C_BARRIER, <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.15</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Knock-In Risk Zone'</span>)</span>
+<span id="cb6-36"></span>
+<span id="cb6-37"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 添加水平参考线</span></span>
+<span id="cb6-38">ax.axhline(y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'black'</span>, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.7</span>)</span>
+<span id="cb6-39">ax.axhline(y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>principal <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span> final_coupon, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_NEUTRAL, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">':'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.5</span>, </span>
+<span id="cb6-40">           label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Max Return = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>principal<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">+</span>final_coupon<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb6-41">ax.axhline(y<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>principal, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'gray'</span>, linestyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'--'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Principal'</span>)</span>
+<span id="cb6-42"></span>
+<span id="cb6-43">ax.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'6. Autocallable Note (Phoenix)'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>)</span>
+<span id="cb6-44">ax.set_xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Stock Price at Maturity'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb6-45">ax.set_ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Total Return'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb6-46">ax.legend(loc<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'upper left'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>, ncol<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb6-47">ax.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>)</span>
+<span id="cb6-48">ax.set_xlim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>)</span>
+<span id="cb6-49">ax.set_ylim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">50</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">130</span>)</span>
+<span id="cb6-50">plt.tight_layout()</span>
+<span id="cb6-51">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-autocall" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-autocall-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-autocall-output-1.png" width="987" height="587" class="figure-img column-page">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-autocall-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6: Autocallable Note (Phoenix) Payoff Structure
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>从 Figure&nbsp;6 可以看到，自动赎回票据有三个关键区域：1）自动赎回区（提前终止并获得高收益）；2）正常到期区（获得票息）；3）敲入风险区（面临本金损失）。这种结构非常适合震荡偏多的市场环境。<br> As illustrated in Figure&nbsp;6, the Autocallable Note has three key regions: 1) Autocall Zone (early termination with high returns); 2) Normal Zone (coupon payment); and 3) Knock-In Risk Zone (potential principal loss). This structure is well-suited for moderately bullish market environments.</p>
+<hr>
+</section>
+<section id="accumulator-koda-累计期权" class="level2 page-columns page-full" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="accumulator-koda-累计期权"><span class="header-section-number">8</span> 7. Accumulator (KODA) / 累计期权</h2>
+<p><strong>The “Discounted Buyer.”</strong> Famous for the nickname “I Kill You Later.” <strong>“打折买家”。</strong> 也就是著名的”I Kill You Later”。</p>
+<ul>
+<li><strong>What is it (是什么):</strong>
+<ul>
+<li>A commitment to buy stock daily at a <strong>discount</strong> (e.g., 85% of spot), but with a <strong>Knock-Out</strong> cap.</li>
+<li>承诺每天以<strong>折扣价</strong>（如现价的85%）买入股票，但设有<strong>敲出</strong>上限。</li>
+</ul></li>
+<li><strong>Market View (市场观点):</strong>
+<ul>
+<li><strong>Low Volatility, Slightly Bullish.</strong> You want to accumulate shares cheaply.</li>
+<li><strong>低波动，慢牛。</strong> 希望低吸建仓。</li>
+</ul></li>
+<li><strong>Pricing Formula (Daily Accumulation):</strong>
+<ul>
+<li>For each day <img src="https://latex.codecogs.com/png.latex?i">:</li>
+<li>If <img src="https://latex.codecogs.com/png.latex?S_i%20%3C%20K">: Buy <img src="https://latex.codecogs.com/png.latex?M"> shares at <img src="https://latex.codecogs.com/png.latex?K"> (Gearing often <img src="https://latex.codecogs.com/png.latex?2%20%5Ctimes%20M">).</li>
+<li>If <img src="https://latex.codecogs.com/png.latex?K%20%5Cle%20S_i%20%5Cle%20KO">: Buy <img src="https://latex.codecogs.com/png.latex?1%20%5Ctimes%20M"> shares at <img src="https://latex.codecogs.com/png.latex?K"> (Profit!).</li>
+<li>If <img src="https://latex.codecogs.com/png.latex?S_i%20%3E%20KO">: Contract Terminates.</li>
+</ul></li>
+<li><strong>Risk (风险):</strong>
+<ul>
+<li><strong>2x Gearing.</strong> If the stock crashes, you must buy <strong>2x or 4x</strong> the amount of shares at the strike price (buying high when market is low).</li>
+<li><strong>双倍杠杆。</strong> 如果股价崩盘，必须以行权价买入 <strong>2倍或4倍</strong> 的股票（在市场低位高价接盘）。</li>
+</ul></li>
+</ul>
+<div id="cell-fig-accumulator" class="cell page-columns page-full" data-execution_count="8">
+<details class="code-fold">
+<summary>显示/隐藏代码 show/hide code</summary>
+<div class="sourceCode cell-code" id="cb7" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 生成数据</span></span>
+<span id="cb7-2">s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.linspace(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">400</span>)</span>
+<span id="cb7-3">K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>          <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 参考价</span></span>
+<span id="cb7-4">discount <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.85</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 85折</span></span>
+<span id="cb7-5">purchase_price <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> discount  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 85</span></span>
+<span id="cb7-6">knockout <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">115</span>   <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 敲出价</span></span>
+<span id="cb7-7">gearing <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>      <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 杠杆倍数</span></span>
+<span id="cb7-8"></span>
+<span id="cb7-9"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 日收益计算（简化版）</span></span>
+<span id="cb7-10">daily_profit <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> np.zeros_like(s)</span>
+<span id="cb7-11">condition1 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> (s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> K) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&amp;</span> (s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;=</span> purchase_price)  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 正常购买区域</span></span>
+<span id="cb7-12">condition2 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&lt;</span> purchase_price               <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 双倍购买区域（亏损）</span></span>
+<span id="cb7-13">condition3 <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> s <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">&gt;</span> knockout                     <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 敲出区域</span></span>
+<span id="cb7-14"></span>
+<span id="cb7-15"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 计算每日收益</span></span>
+<span id="cb7-16">daily_profit[condition1] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> (K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> s[condition1]) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 1倍杠杆</span></span>
+<span id="cb7-17">daily_profit[condition2] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> (K <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span> s[condition2]) <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> gearing  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 2倍杠杆（亏损放大）</span></span>
+<span id="cb7-18">daily_profit[condition3] <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span>  <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 敲出后无交易</span></span>
+<span id="cb7-19"></span>
+<span id="cb7-20"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 假设合约持续10天，总收益</span></span>
+<span id="cb7-21">total_profit <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> daily_profit <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">*</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span></span>
+<span id="cb7-22"></span>
+<span id="cb7-23"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 创建图表</span></span>
+<span id="cb7-24">fig, ax <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> plt.subplots()</span>
+<span id="cb7-25">ax.plot(s, total_profit, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Accumulator Total P&amp;L'</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_PAYOFF, linewidth<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2.5</span>)</span>
+<span id="cb7-26"></span>
+<span id="cb7-27"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 添加关键水平线</span></span>
+<span id="cb7-28">add_barrier(ax, knockout, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Knock-Out = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>knockout<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>, C_STRIKE)</span>
+<span id="cb7-29">add_barrier(ax, purchase_price, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Purchase Price = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>purchase_price<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;"> (85% of K)'</span>, C_BARRIER)</span>
+<span id="cb7-30">add_strike(ax, K, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f'Reference Price K = </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>K<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'</span>)</span>
+<span id="cb7-31"></span>
+<span id="cb7-32"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 标记不同区域</span></span>
+<span id="cb7-33">ax.axvspan(purchase_price, K, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_STRIKE, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Profit Zone (1x)'</span>)</span>
+<span id="cb7-34">ax.axvspan(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, purchase_price, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_BARRIER, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.15</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Loss Zone (2x Gearing)'</span>)</span>
+<span id="cb7-35">ax.axvspan(knockout, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_NEUTRAL, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.1</span>, label<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Knock-Out Zone'</span>)</span>
+<span id="cb7-36"></span>
+<span id="cb7-37"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;"># 添加说明文本</span></span>
+<span id="cb7-38">ax.text(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">70</span>, <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Danger Zone:</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">Forced to buy 2x</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">at high price'</span>, </span>
+<span id="cb7-39">         fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_BARRIER, ha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'center'</span>, bbox<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>(boxstyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"round,pad=0.3"</span>, </span>
+<span id="cb7-40">         facecolor<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'white'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.8</span>))</span>
+<span id="cb7-41">ax.text(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">107</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">50</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Knock-Out:</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">Contract ends'</span>, </span>
+<span id="cb7-42">         fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_STRIKE, ha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'center'</span>, bbox<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>(boxstyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"round,pad=0.3"</span>, </span>
+<span id="cb7-43">         facecolor<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'white'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.8</span>))</span>
+<span id="cb7-44">ax.text(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">92</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">20</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Profit Zone:</span><span class="ch" style="color: #20794D;
+background-color: null;
+font-style: inherit;">\n</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">Buy at discount'</span>, </span>
+<span id="cb7-45">         fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>, color<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span>C_STRIKE, ha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'center'</span>, bbox<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">dict</span>(boxstyle<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"round,pad=0.3"</span>, </span>
+<span id="cb7-46">         facecolor<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'white'</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.8</span>))</span>
+<span id="cb7-47"></span>
+<span id="cb7-48">ax.set_title(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'7. Accumulator (KODA) - "I Kill You Later"'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">14</span>, fontweight<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'bold'</span>)</span>
+<span id="cb7-49">ax.set_xlabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Stock Price'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb7-50">ax.set_ylabel(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Cumulative Profit/Loss'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">12</span>)</span>
+<span id="cb7-51">ax.legend(loc<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'upper right'</span>, fontsize<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">9</span>, ncol<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">2</span>)</span>
+<span id="cb7-52">ax.grid(<span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">True</span>, alpha<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="fl" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0.3</span>)</span>
+<span id="cb7-53">ax.set_xlim(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">60</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">140</span>)</span>
+<span id="cb7-54">ax.set_ylim(<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">-</span><span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">150</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">100</span>)</span>
+<span id="cb7-55">plt.tight_layout()</span>
+<span id="cb7-56">plt.show()</span></code></pre></div>
+</details>
+<div class="cell-output cell-output-display page-columns page-full">
+<div id="fig-accumulator" class="quarto-figure quarto-figure-center quarto-float anchored page-columns page-full">
+<figure class="quarto-float quarto-float-fig figure page-columns page-full">
+<div aria-describedby="fig-accumulator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca" class="page-columns page-full">
+<img src="https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives_files/figure-html/fig-accumulator-output-1.png" width="987" height="587" class="figure-img column-page">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-accumulator-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;7: Accumulator (KODA) - ‘I Kill You Later’
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Figure&nbsp;7 揭示了累计期权的风险特征：看似可以”打折”买入股票，但当股价大幅下跌时，双倍杠杆机制会迫使投资者在低位高价接盘，造成巨大亏损。这就是其绰号”I Kill You Later”的由来。<br> Figure&nbsp;7 reveals the risk characteristics of accumulators: seemingly able to buy stocks at a “discount”, but when the stock price falls sharply, the double-gearing mechanism forces investors to buy at high prices when the market is low, causing huge losses. This is the origin of its nickname “I Kill You Later”.</p>
+<hr>
+</section>
+<section id="quick-comparison-table-快速对比表" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="quick-comparison-table-快速对比表"><span class="header-section-number">9</span> Quick Comparison Table / 快速对比表</h2>
+<table class="table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Product / 产品</th>
+<th style="text-align: left;">Investor’s Goal / 投资者目标</th>
+<th style="text-align: left;">Key Component / 核心组件</th>
+<th style="text-align: left;">Main Pricing Driver / 核心定价因子</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Equity Swap</strong></td>
+<td style="text-align: left;">Access &amp; Leverage <br> 准入与杠杆</td>
+<td style="text-align: left;">Delta One <br> Delta One</td>
+<td style="text-align: left;">Funding Spread <br> 资金利差</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Asian Option</strong></td>
+<td style="text-align: left;">Cheaper Hedging <br> 低成本对冲</td>
+<td style="text-align: left;">Average Price <br> 平均价格</td>
+<td style="text-align: left;">Volatility (Lower is better) <br> 波动率</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Barrier Option</strong></td>
+<td style="text-align: left;">Conditional View <br> 条件化观点</td>
+<td style="text-align: left;">Knock-In / Out <br> 敲入/敲出</td>
+<td style="text-align: left;">Volatility Skew <br> 波动率偏斜</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Reverse Conv.</strong></td>
+<td style="text-align: left;">High Income <br> 高收益</td>
+<td style="text-align: left;">Short Put <br> 卖出看跌期权</td>
+<td style="text-align: left;">Implied Volatility <br> 隐含波动率</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Twin-Win</strong></td>
+<td style="text-align: left;">Big Move (Any direction) <br> 大幅波动</td>
+<td style="text-align: left;">Straddle (Long Vol) <br> 跨式组合</td>
+<td style="text-align: left;">Volatility (Higher is better) <br> 波动率</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Autocall</strong></td>
+<td style="text-align: left;">Yield in Flat Market <br> 震荡市收益</td>
+<td style="text-align: left;">Digital Call + Short Put <br> 数字看涨 + 卖出看跌</td>
+<td style="text-align: left;">Correlation &amp; Skew <br> 相关性与偏斜</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Accumulator</strong></td>
+<td style="text-align: left;">Buy Discounted Stock <br> 打折建仓</td>
+<td style="text-align: left;">Strip of Forwards <br> 远期合约组合</td>
+<td style="text-align: left;">Dividend &amp; Skew <br> 股息与偏斜</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="conclusion-总结" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="conclusion-总结"><span class="header-section-number">10</span> Conclusion / 总结</h2>
+<p>This guide has walked through seven key exotic equity derivatives, from the foundational Equity Swap to the notoriously risky Accumulator. Each product serves a specific market view and risk appetite:</p>
+<ol type="1">
+<li><strong>Use Swaps</strong> for synthetic access and leverage</li>
+<li><strong>Choose Asian options</strong> for cheaper hedging</li>
+<li><strong>Employ Barrier options</strong> for conditional views</li>
+<li><strong>Consider Reverse Convertibles</strong> for income generation</li>
+<li><strong>Opt for Twin-Wins</strong> when expecting volatility</li>
+<li><strong>Select Autocallables</strong> for yield in range-bound markets</li>
+<li><strong>Avoid Accumulators</strong> unless fully understanding the risks</li>
+</ol>
+<p>The key to successful derivative usage lies in <strong>matching the product structure to your market view and risk tolerance</strong>. Always remember: higher yields almost always come with hidden risks.</p>
+<p><strong>免责声明：</strong> 本文仅用于教育目的，不构成投资建议。衍生品交易涉及高风险，可能损失全部本金。投资者应在充分理解产品特性及风险后，咨询专业顾问意见。</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Structuring</category>
+  <category>Derivatives</category>
+  <category>Exotics</category>
+  <category>Market Insights</category>
+  <guid>https://your-website-url.example.com/posts/equity_derivatives/equity_derivatives.html</guid>
+  <pubDate>Tue, 02 Dec 2025 00:00:00 GMT</pubDate>
+  <media:content url="https://your-website-url.example.com/posts/equity_derivatives/ExoticDerivatives.png" medium="image" type="image/png"/>
+</item>
 <item>
   <title>市场周报 (46/52)｜政府关门协议落地，市场“卖出事实”</title>
   <dc:creator>Sarah LI</dc:creator>
@@ -66,9 +2485,10 @@
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
+<p>This is my first post. Welcome!</p>
 <p><img src="https://your-website-url.example.com/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
-<p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
+<p>I will share my knowledge about investment banking, trading strategies, books inspired me, healthy lifestyle, and more.</p>
+<p>To live an exciting life, let`s keep learning and growing!</p>
 
 
 
